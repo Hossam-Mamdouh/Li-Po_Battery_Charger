@@ -201,7 +201,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_imported:0_50A_24V"
+		(symbol "lcsc_imported:1206L150THWR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -217,7 +217,7 @@
 					)
 				)
 			)
-			(property "Value" "0.50A 24V"
+			(property "Value" "1206L150THWR"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -227,7 +227,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc_footprints:C70076_F1206"
+			(property "Footprint" "lcsc_footprints:C118413_F1206"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -238,7 +238,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Littelfuse-1206L150THWR_C118413.pdf"
 				(at -2.286 0.127 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -249,7 +249,7 @@
 					)
 				)
 			)
-			(property "Description" "0.50A 24V"
+			(property "Description" "1206L150THWR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -260,7 +260,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C70076"
+			(property "LCSC" "C118413"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -271,7 +271,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "台湾陆海"
+			(property "Manufacturer" "Littelfuse(美国力特)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -282,24 +282,10 @@
 					)
 				)
 			)
-			(symbol "0_50A_24V_1_1"
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -1.27 1.27) (xy 0 -1.27) (xy 0 -1.27) (xy 1.27 -3.81) (xy 2.54 -1.27) (xy 2.54 -1.27)
-						(xy -2.54 -1.27)
-					)
+			(symbol "1206L150THWR_1_1"
+				(rectangle
+					(start -3.302 0.762)
+					(end 3.302 -0.762)
 					(stroke
 						(width 0)
 						(type default)
@@ -310,7 +296,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -1.27) (xy 3.81 -1.27)
+						(xy -2.54 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -321,176 +307,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 -1.27 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 -1.27 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "lcsc_imported:10nF_(103)_±10%_50V"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10nF (103) ±10% 50V"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc_footprints:C15195_C0402"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10nF (103) ±10% 50V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C15195"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "SAMSUNG(三星)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "10nF_(103)_±10%_50V_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.032) (xy -0.508 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.032) (xy 0.508 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -507,8 +324,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at 3.81 0 180)
+				(pin unspecified line
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -742,6 +559,138 @@
 				)
 			)
 			(symbol "2KΩ_(2001)_±1%_1_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:5_1KΩ_(5101)_±1%"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5.1KΩ (5101) ±1%"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C25905_R0402"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "5.1KΩ (5101) ±1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C25905"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(厚声)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "5_1KΩ_(5101)_±1%_1_1"
 				(rectangle
 					(start -2.54 1.016)
 					(end 2.54 -1.016)
@@ -1329,6 +1278,138 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:FRC0603F9102TS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FRC0603F9102TS"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C2907077_R0603"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0603F9102TS_C2907077.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "FRC0603F9102TS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2907077"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "FOJAN(富捷)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FRC0603F9102TS_1_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(pin unspecified line
@@ -2408,13 +2489,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_imported:MP1584EN-LF-Z"
+		(symbol "lcsc_imported:MHCI04012N-R47M-R8"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "L"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2424,7 +2505,7 @@
 					)
 				)
 			)
-			(property "Value" "MP1584EN-LF-Z"
+			(property "Value" "MHCI04012N-R47M-R8"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2434,7 +2515,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc_footprints:C15051_SOIC-8_L5_0-W4_0-P1_27-LS6_0-BL-EP2_0"
+			(property "Footprint" "lcsc_footprints:C285747_IND-SMD_L4_0-W4_0_CHILISIN_MHCI04012N"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2456,7 +2537,7 @@
 					)
 				)
 			)
-			(property "Description" "MP1584EN-LF-Z"
+			(property "Description" "MHCI04012N-R47M-R8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2467,7 +2548,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C15051"
+			(property "LCSC" "C285747"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2478,7 +2559,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "MPS(芯源)"
+			(property "Manufacturer" "Chilisin(奇力新)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2489,22 +2570,59 @@
 					)
 				)
 			)
-			(symbol "MP1584EN-LF-Z_1_1"
-				(rectangle
-					(start -7.62 6.35)
-					(end 7.62 -6.35)
+			(symbol "MHCI04012N-R47M-R8_1_1"
+				(arc
+					(start -4.064 0.0051)
+					(mid -3.0429 1.016)
+					(end -2.032 -0.0051)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 0.0051)
+					(mid -1.0109 1.016)
+					(end 0 -0.0051)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.0051)
+					(mid 1.0211 1.016)
+					(end 2.032 -0.0051)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.032 0.0051)
+					(mid 3.0531 1.016)
+					(end 4.064 -0.0051)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin unspecified line
-					(at -12.7 3.81 0)
-					(length 5.08)
-					(name "SW"
+					(at -5.08 0 0)
+					(length 1.016)
+					(name "1"
 						(effects
 							(font
 								(size 1 1)
@@ -2520,9 +2638,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -12.7 1.27 0)
-					(length 5.08)
-					(name "EN"
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "2"
 						(effects
 							(font
 								(size 1 1)
@@ -2530,132 +2648,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -12.7 -1.27 0)
-					(length 5.08)
-					(name "COMP"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -12.7 -3.81 0)
-					(length 5.08)
-					(name "FB"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 -3.81 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 -1.27 180)
-					(length 5.08)
-					(name "FREQ"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 1.27 180)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 3.81 180)
-					(length 5.08)
-					(name "BST"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -8.89 90)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1 1)
@@ -2883,7 +2875,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_imported:RC0402FR-07100KL"
+		(symbol "lcsc_imported:RC0402FR-07100RL"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2899,7 +2891,7 @@
 					)
 				)
 			)
-			(property "Value" "RC0402FR-07100KL"
+			(property "Value" "RC0402FR-07100RL"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2909,7 +2901,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc_footprints:C60491_R0402"
+			(property "Footprint" "lcsc_footprints:C106232_R0402"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2920,7 +2912,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-07100KL_C60491.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-07100RL_C106232.pdf"
 				(at -2.286 0.127 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2931,7 +2923,7 @@
 					)
 				)
 			)
-			(property "Description" "RC0402FR-07100KL"
+			(property "Description" "RC0402FR-07100RL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2942,7 +2934,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C60491"
+			(property "LCSC" "C106232"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2964,7 +2956,7 @@
 					)
 				)
 			)
-			(symbol "RC0402FR-07100KL_1_1"
+			(symbol "RC0402FR-07100RL_1_1"
 				(rectangle
 					(start -2.54 1.016)
 					(end 2.54 -1.016)
@@ -3015,7 +3007,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_imported:RMC040231_6K1%N"
+		(symbol "lcsc_imported:RC0402FR-0720KL"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3031,7 +3023,7 @@
 					)
 				)
 			)
-			(property "Value" "RMC040231.6K1%N"
+			(property "Value" "RC0402FR-0720KL"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3041,7 +3033,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc_footprints:C325374_R0402"
+			(property "Footprint" "lcsc_footprints:C93942_R0402"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3052,7 +3044,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TyoHM-RMC040231-6K1-N_C325374.pdf"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_YAGEO-RC0402FR-0720KL_C93942.pdf"
 				(at -2.286 0.127 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3063,7 +3055,7 @@
 					)
 				)
 			)
-			(property "Description" "RMC040231.6K1%N"
+			(property "Description" "RC0402FR-0720KL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3074,7 +3066,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C325374"
+			(property "LCSC" "C93942"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3085,7 +3077,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Tyohm(幸亚电阻)"
+			(property "Manufacturer" "YAGEO(国巨)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3096,7 +3088,7 @@
 					)
 				)
 			)
-			(symbol "RMC040231_6K1%N_1_1"
+			(symbol "RC0402FR-0720KL_1_1"
 				(rectangle
 					(start -2.54 1.016)
 					(end 2.54 -1.016)
@@ -3108,7 +3100,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -3126,7 +3118,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -3232,6 +3224,138 @@
 				(rectangle
 					(start -2.54 1.016)
 					(end 2.54 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:RT0603BRD07511KL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RT0603BRD07511KL"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C861454_R0603"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210190000_YAGEO-RT0603BRD07511KL_C861454.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "RT0603BRD07511KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C861454"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO(国巨)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RT0603BRD07511KL_1_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -3422,175 +3546,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_imported:SS34L"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SS34L"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc_footprints:C3003093_SMF_L2_8-W1_8-LS3_7-RD"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204261415_Guangdong-Hottech-SS34L_C3003093.pdf"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SS34L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C3003093"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Hottech(合科泰)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SS34L_1_1"
-				(polyline
-					(pts
-						(xy -1.778 1.27) (xy -1.778 1.778) (xy -1.27 1.778) (xy -1.27 -1.778) (xy -0.762 -1.778) (xy -0.762 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.778) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lcsc_imported:TCC0402X7R104K500AT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3760,13 +3715,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_imported:TCC0603X5R106M350CT"
+		(symbol "lcsc_imported:TPS63802DLAR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
+			(property "Reference" "U"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3776,7 +3731,7 @@
 					)
 				)
 			)
-			(property "Value" "TCC0603X5R106M350CT"
+			(property "Value" "TPS63802DLAR"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3786,7 +3741,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc_footprints:C22392391_C0603"
+			(property "Footprint" "lcsc_footprints:C2845237_VSON-10_L3_0-W2_0-P0_50-TL"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3797,7 +3752,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2405091603_CCTC-TCC0603X5R106M350CT_C22392391.pdf"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220830_Texas-Instruments-TPS63802DLAR_C2845237.pdf"
 				(at -2.286 0.127 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3808,7 +3763,7 @@
 					)
 				)
 			)
-			(property "Description" "TCC0603X5R106M350CT"
+			(property "Description" "TPS63802DLAR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3819,7 +3774,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C22392391"
+			(property "LCSC" "C2845237"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3830,7 +3785,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "CCTC(三环)"
+			(property "Manufacturer" "TI(德州仪器)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3841,59 +3796,33 @@
 					)
 				)
 			)
-			(symbol "TCC0603X5R106M350CT_1_1"
-				(polyline
-					(pts
-						(xy -0.508 0) (xy -2.54 0)
-					)
+			(symbol "TPS63802DLAR_1_1"
+				(rectangle
+					(start -8.89 7.62)
+					(end 8.89 -7.62)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.508 -2.032) (xy -0.508 2.032)
-					)
+				(circle
+					(center -7.62 6.35)
+					(radius 0.381)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.032) (xy 0.508 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin unspecified line
-					(at -5.08 0 0)
+					(at -11.43 5.08 0)
 					(length 2.54)
-					(name "1"
+					(name "EN"
 						(effects
 							(font
 								(size 1 1)
@@ -3909,9 +3838,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 0 180)
+					(at -11.43 2.54 0)
 					(length 2.54)
-					(name "2"
+					(name "MODE"
 						(effects
 							(font
 								(size 1 1)
@@ -3919,6 +3848,150 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "AGND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -2.54 0)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -5.08 0)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -5.08 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "L2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 2.54 180)
+					(length 2.54)
+					(name "L1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 5.08 180)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1 1)
@@ -4324,175 +4397,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_imported:YNR4030-4R7M"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "YNR4030-4R7M"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc_footprints:C340391_IND-SMD_L4_0-W4_0"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_YJYCOIN-YNR4030-4R7M_C340391.pdf"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "YNR4030-4R7M"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C340391"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YJYCOIN(益嘉源)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "YNR4030-4R7M_1_1"
-				(arc
-					(start -4.2883 0.0173)
-					(mid -3.2762 1.0999)
-					(end -2.2652 0.0163)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.1336 0.018)
-					(mid -1.1213 1.1006)
-					(end -0.1105 0.0168)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.017 0.018)
-					(mid 1.0293 1.1006)
-					(end 2.0401 0.0168)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.2098 0.0175)
-					(mid 3.2221 1.1001)
-					(end 4.2329 0.0163)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 0.762)
-					(name "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 0.762)
-					(name "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -4725,18 +4629,6 @@
 		)
 	)
 	(rectangle
-		(start 130.81 19.05)
-		(end 266.7 74.93)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "3124f9a0-a426-41fa-83e8-c598e4df4bfe")
-	)
-	(rectangle
 		(start 16.51 19.05)
 		(end 124.46 74.93)
 		(stroke
@@ -4761,6 +4653,18 @@
 		(uuid "56404e5e-112b-465d-b2b9-aa12b253510f")
 	)
 	(rectangle
+		(start 128.27 19.05)
+		(end 266.7 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "cccd9eb7-2953-42ba-acc5-4f019507bb6f")
+	)
+	(rectangle
 		(start 16.51 81.28)
 		(end 148.59 157.48)
 		(stroke
@@ -4783,18 +4687,6 @@
 			)
 		)
 		(uuid "2e7b3eb1-5158-4ede-b17c-d38faaebcadb")
-	)
-	(text "Buck Converter +5V to +3.3V"
-		(exclude_from_sim no)
-		(at 195.072 23.876 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-			)
-		)
-		(uuid "50f0eb86-62f9-46f9-aec8-00a28417a8a0")
 	)
 	(text "USBC Input"
 		(exclude_from_sim no)
@@ -4832,6 +4724,24 @@
 		)
 		(uuid "901b3c91-6bd2-4348-a8ed-6c900d06137a")
 	)
+	(text "Buck-Boost Converter"
+		(exclude_from_sim no)
+		(at 194.31 24.892 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "fa7cb43d-2168-4ba7-bed1-2a846f7d1ecb")
+	)
+	(junction
+		(at 59.69 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "001b437e-1fec-4b3a-876d-36a70fed03e9")
+	)
 	(junction
 		(at 88.9 35.56)
 		(diameter 0)
@@ -4845,28 +4755,28 @@
 		(uuid "0c9c1c59-dbd7-4fd4-a52d-415a6c54cf33")
 	)
 	(junction
-		(at 73.66 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1540be8e-080a-48ed-a41b-e8edd32c393a")
-	)
-	(junction
 		(at 30.48 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d81ca24-78ec-492f-949f-a504fa4ea3e2")
 	)
 	(junction
-		(at 176.53 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2486277b-eea4-49a3-a701-5a37516f1d25")
-	)
-	(junction
 		(at 30.48 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "387e36fe-6d71-45f8-8ee3-fde1d7a126f8")
+	)
+	(junction
+		(at 162.56 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "491c05a4-9c33-4d68-b699-c119202164fd")
+	)
+	(junction
+		(at 73.66 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "529dd195-ac3a-486c-9446-79caa12659d1")
 	)
 	(junction
 		(at 88.9 48.26)
@@ -4881,46 +4791,22 @@
 		(uuid "5e045550-d97a-4488-8520-8424f01e84d4")
 	)
 	(junction
-		(at 157.48 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e903fb8-bf30-47a7-9c3f-622e81160143")
-	)
-	(junction
-		(at 227.33 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "612432d7-912b-4a00-89a2-251d6bbbcceb")
-	)
-	(junction
-		(at 196.85 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c4450a3-2470-4b8a-bea2-52b9deb28154")
-	)
-	(junction
-		(at 115.57 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c7128b6-5034-4664-baf1-900a2b21cbdf")
-	)
-	(junction
-		(at 115.57 114.3)
+		(at 115.57 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0d15602-0d22-4aeb-9208-3015db0d268d")
 	)
 	(junction
-		(at 222.25 68.58)
+		(at 227.33 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aa84cf4f-96e6-4127-b60a-9c250f7370b7")
+		(uuid "ae1ff05d-ef39-4dab-b34e-ee88bdd35820")
 	)
 	(junction
-		(at 224.79 34.29)
+		(at 222.25 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d7297df1-d36f-4056-854d-80caa27f4d42")
+		(uuid "e51c7206-f703-4741-86af-4f0ae8235820")
 	)
 	(junction
 		(at 49.53 151.13)
@@ -4939,20 +4825,12 @@
 		(uuid "2478ad71-9f71-4062-916f-1ace4a9c3afc")
 	)
 	(no_connect
-		(at 30.48 43.18)
-		(uuid "282c6691-8977-4fcc-bbc0-35bac4f1bec9")
-	)
-	(no_connect
 		(at 30.48 50.8)
 		(uuid "5aa0ab1e-7ceb-48a8-8494-02e8e0a3d52d")
 	)
 	(no_connect
 		(at 30.48 38.1)
 		(uuid "7513fcb6-a664-4eec-9f54-5de150db58cd")
-	)
-	(no_connect
-		(at 30.48 33.02)
-		(uuid "7dbc5014-5b72-4d06-90ed-3174a2ba08e4")
 	)
 	(no_connect
 		(at 30.48 45.72)
@@ -4963,11 +4841,23 @@
 		(uuid "8e4283c2-76b8-4d2b-9957-c8f1f610138b")
 	)
 	(no_connect
+		(at 218.44 138.43)
+		(uuid "a5169638-f9d3-4374-8266-4a4aef6a5e1c")
+	)
+	(no_connect
 		(at 30.48 48.26)
 		(uuid "bcd0a55d-9d50-4be3-aa50-63d280db5500")
 	)
 	(no_connect
-		(at 217.17 116.84)
+		(at 181.61 49.53)
+		(uuid "bee76a17-30a5-4c18-b59b-fd059d3f93c4")
+	)
+	(no_connect
+		(at 193.04 138.43)
+		(uuid "c38e1c8d-7b48-4767-852e-2ee8eb0290b6")
+	)
+	(no_connect
+		(at 217.17 111.76)
 		(uuid "d2d7dad8-bc77-42ad-8c2f-f68183070018")
 	)
 	(wire
@@ -4992,26 +4882,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 49.53) (xy 227.33 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0425db44-ccd3-46e4-832f-7dc62d742b81")
-	)
-	(wire
-		(pts
-			(xy 238.76 46.99) (xy 238.76 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0568bff3-9b13-4340-9a47-b18c5cd1d64e")
-	)
-	(wire
-		(pts
 			(xy 125.73 140.97) (xy 133.35 140.97)
 		)
 		(stroke
@@ -5032,17 +4902,37 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 46.99) (xy 222.25 46.99)
+			(xy 222.25 109.22) (xy 226.06 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07e33452-e3f6-4a33-bc82-4dc76fa34f3c")
+		(uuid "07897103-4377-401a-b753-597fc5dcfa87")
 	)
 	(wire
 		(pts
-			(xy 80.01 140.97) (xy 87.63 140.97)
+			(xy 210.82 52.07) (xy 210.82 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca1bb37-292e-452c-a1af-979078433db3")
+	)
+	(wire
+		(pts
+			(xy 208.28 59.69) (xy 204.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d646311-35e6-47a8-971f-396051a48976")
+	)
+	(wire
+		(pts
+			(xy 109.22 140.97) (xy 116.84 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5072,23 +4962,33 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 34.29) (xy 224.79 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10c0505f-2e3c-4397-b8c2-14c3451b9d6a")
-	)
-	(wire
-		(pts
-			(xy 185.42 111.76) (xy 191.77 111.76)
+			(xy 185.42 106.68) (xy 191.77 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1208800a-a491-40cb-83ed-77141844ad26")
+	)
+	(wire
+		(pts
+			(xy 21.59 43.18) (xy 30.48 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "147aa09c-9ce3-46d3-bea8-ba7b7326f92d")
+	)
+	(wire
+		(pts
+			(xy 88.9 151.13) (xy 83.82 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16735237-4c31-4ad2-90ba-3b02451f352e")
 	)
 	(wire
 		(pts
@@ -5102,16 +5002,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 140.97) (xy 113.03 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ca8777e-39a2-4ab4-ad01-8a10ae29eef4")
-	)
-	(wire
-		(pts
 			(xy 142.24 120.65) (xy 142.24 125.73)
 		)
 		(stroke
@@ -5119,6 +5009,16 @@
 			(type default)
 		)
 		(uuid "1e3f8226-b531-4059-b271-d5651d2b82d6")
+	)
+	(wire
+		(pts
+			(xy 162.56 36.83) (xy 166.37 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f132543-3665-4ccc-a952-ac2efef8150a")
 	)
 	(wire
 		(pts
@@ -5162,23 +5062,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 106.68) (xy 104.14 106.68)
+			(xy 162.56 57.15) (xy 162.56 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25608df7-d1b6-4bca-a85a-5dccc6cd67e7")
-	)
-	(wire
-		(pts
-			(xy 238.76 62.23) (xy 238.76 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "271efe8a-e786-4b4f-9146-dd75df0abe98")
+		(uuid "259461c7-3260-4a7f-802c-c56aba8ee7cb")
 	)
 	(wire
 		(pts
@@ -5189,6 +5079,16 @@
 			(type default)
 		)
 		(uuid "2c621590-175d-4110-a445-4863cc3dc433")
+	)
+	(wire
+		(pts
+			(xy 227.33 39.37) (xy 204.47 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d16d445-a8f3-43d9-a421-35960460d042")
 	)
 	(wire
 		(pts
@@ -5209,6 +5109,16 @@
 			(type default)
 		)
 		(uuid "3162d39c-e7b9-424e-b461-e3841208a363")
+	)
+	(wire
+		(pts
+			(xy 199.39 120.65) (xy 203.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321f2b41-d66a-432f-a34d-96cb75f84d53")
 	)
 	(wire
 		(pts
@@ -5262,36 +5172,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 68.58) (xy 227.33 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45e78687-a84c-4848-aef9-4a10868d0bce")
-	)
-	(wire
-		(pts
-			(xy 227.33 67.31) (xy 227.33 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4624bac0-dd6e-4215-8e2b-d4a2fbaa9e80")
-	)
-	(wire
-		(pts
-			(xy 222.25 44.45) (xy 224.79 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46b63794-fe9d-4d4b-acb2-bea4ac7f6197")
-	)
-	(wire
-		(pts
 			(xy 76.2 116.84) (xy 81.28 116.84)
 		)
 		(stroke
@@ -5309,6 +5189,26 @@
 			(type default)
 		)
 		(uuid "4a6e4217-df67-48e3-80b6-f922782f53e8")
+	)
+	(wire
+		(pts
+			(xy 218.44 140.97) (xy 223.52 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be40ddb-1a51-4780-bc9d-f1e979c05eee")
+	)
+	(wire
+		(pts
+			(xy 88.9 140.97) (xy 83.82 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8e340e-2dd5-4220-a118-990bf2b6fe59")
 	)
 	(wire
 		(pts
@@ -5332,6 +5232,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 59.69) (xy 64.77 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5062f8c0-065c-4d39-aab7-d5df80ade7c7")
+	)
+	(wire
+		(pts
 			(xy 106.68 48.26) (xy 88.9 48.26)
 		)
 		(stroke
@@ -5342,13 +5252,23 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 68.58) (xy 222.25 68.58)
+			(xy 185.42 120.65) (xy 189.23 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56590783-1d3f-4faf-a16c-f64e5dd1ca44")
+		(uuid "515a3c59-92ef-4e77-bb55-e88a523a5e25")
+	)
+	(wire
+		(pts
+			(xy 215.9 52.07) (xy 210.82 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c1d685-d423-4751-b2a3-aaab6a12daa1")
 	)
 	(wire
 		(pts
@@ -5362,13 +5282,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 34.29) (xy 182.88 34.29)
+			(xy 176.53 44.45) (xy 181.61 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57759401-acae-4c56-9936-8c5d51b25b9a")
+		(uuid "5808ec17-21b4-4e7d-9a52-0682306deeb6")
 	)
 	(wire
 		(pts
@@ -5382,23 +5302,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 135.89) (xy 181.61 135.89)
+			(xy 187.96 135.89) (xy 193.04 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "59bb4313-5d6f-415d-8fea-38caf5ad06c8")
-	)
-	(wire
-		(pts
-			(xy 115.57 99.06) (xy 115.57 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c39778f-59cd-439c-a7a2-623db39910a1")
 	)
 	(wire
 		(pts
@@ -5412,7 +5322,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 114.3) (xy 191.77 114.3)
+			(xy 185.42 109.22) (xy 191.77 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5422,7 +5332,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 114.3) (xy 115.57 114.3)
+			(xy 114.3 110.49) (xy 115.57 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5432,33 +5342,13 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 104.14) (xy 217.17 111.76)
+			(xy 217.17 99.06) (xy 217.17 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "636bb47d-1383-47db-a6aa-d6c045a86695")
-	)
-	(wire
-		(pts
-			(xy 157.48 52.07) (xy 196.85 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "647feba3-aad6-43eb-bbdf-77aa2784b654")
-	)
-	(wire
-		(pts
-			(xy 115.57 106.68) (xy 115.57 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64e0f2e4-0e8a-44df-b741-aa7779b37d9b")
 	)
 	(wire
 		(pts
@@ -5472,7 +5362,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 116.84) (xy 191.77 116.84)
+			(xy 185.42 111.76) (xy 191.77 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5492,36 +5382,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 52.07) (xy 222.25 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d99c3f0-3ef8-49ea-a2b3-4653eeaf8b39")
-	)
-	(wire
-		(pts
-			(xy 115.57 121.92) (xy 115.57 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e4459dd-69c7-47af-a691-74f675c70182")
-	)
-	(wire
-		(pts
-			(xy 194.31 49.53) (xy 194.31 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f51dbc9-635c-4188-a89b-308e58f1aac1")
-	)
-	(wire
-		(pts
 			(xy 22.86 104.14) (xy 33.02 104.14)
 		)
 		(stroke
@@ -5532,47 +5392,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 40.64) (xy 157.48 34.29)
+			(xy 218.44 135.89) (xy 223.52 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73d9e884-efd5-4a9e-858c-93c919a0e4a8")
+		(uuid "860e98d8-6d91-4e90-ac22-8df9e75a62ad")
 	)
 	(wire
 		(pts
-			(xy 157.48 67.31) (xy 157.48 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "775f28d8-2d7d-47fa-9ff4-bc45b80a0874")
-	)
-	(wire
-		(pts
-			(xy 157.48 50.8) (xy 157.48 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d0b70bd-4c94-408a-8e2a-34f0ed9040e0")
-	)
-	(wire
-		(pts
-			(xy 176.53 138.43) (xy 181.61 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8317d9e4-f3dc-4f3e-89fa-f460e6b03b1b")
-	)
-	(wire
-		(pts
-			(xy 223.52 139.7) (xy 228.6 139.7)
+			(xy 242.57 127) (xy 247.65 127)
 		)
 		(stroke
 			(width 0)
@@ -5602,26 +5432,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 49.53) (xy 194.31 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a059b4a-6ee8-4469-933d-967b768623dd")
-	)
-	(wire
-		(pts
-			(xy 194.31 66.04) (xy 194.31 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ac39a0f-364d-405c-97b4-6ef523e21fcb")
-	)
-	(wire
-		(pts
 			(xy 21.59 30.48) (xy 30.48 30.48)
 		)
 		(stroke
@@ -5632,7 +5442,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 35.56) (xy 55.88 35.56)
+			(xy 48.26 35.56) (xy 58.42 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5662,7 +5472,27 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 137.16) (xy 228.6 137.16)
+			(xy 176.53 39.37) (xy 181.61 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b1d918-64dc-45f2-8d05-930c4fbb1d6e")
+	)
+	(wire
+		(pts
+			(xy 217.17 109.22) (xy 222.25 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ef3c66-de67-4d61-9bed-412ca7cfe2b7")
+	)
+	(wire
+		(pts
+			(xy 242.57 124.46) (xy 247.65 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5672,17 +5502,37 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 45.72) (xy 176.53 46.99)
+			(xy 21.59 33.02) (xy 30.48 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a15175fa-9cf5-425a-b8a3-98241b5303ea")
+		(uuid "9fd4eb7a-a946-4ed2-ab47-63b7d8e7f652")
 	)
 	(wire
 		(pts
-			(xy 176.53 140.97) (xy 181.61 140.97)
+			(xy 162.56 59.69) (xy 167.64 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75b10d4-0a48-4207-928c-6fc462e318ab")
+	)
+	(wire
+		(pts
+			(xy 176.53 41.91) (xy 181.61 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a838e9e6-4bd9-4ef6-b5b5-c70e5d1bca5f")
+	)
+	(wire
+		(pts
+			(xy 187.96 140.97) (xy 193.04 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5712,16 +5562,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 44.45) (xy 196.85 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b47c69a9-b177-4046-b9a2-241690ad1669")
-	)
-	(wire
-		(pts
 			(xy 76.2 109.22) (xy 81.28 109.22)
 		)
 		(stroke
@@ -5729,6 +5569,16 @@
 			(type default)
 		)
 		(uuid "b7afda38-83e3-4ac3-b15b-3f3bba55e664")
+	)
+	(wire
+		(pts
+			(xy 54.61 59.69) (xy 59.69 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99ddc55-dff8-406e-9abf-f766d5f090b6")
 	)
 	(wire
 		(pts
@@ -5742,13 +5592,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 151.13) (xy 113.03 151.13)
+			(xy 210.82 46.99) (xy 204.47 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be9a9bea-ca14-455a-9834-d31f43d32b7a")
+		(uuid "c03f80ca-cfa1-4ec3-887f-7c507fb3213c")
 	)
 	(wire
 		(pts
@@ -5762,6 +5612,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 39.37) (xy 233.68 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c616cf25-9ddb-474d-80bd-23ccd7e4c57f")
+	)
+	(wire
+		(pts
 			(xy 142.24 91.44) (xy 130.81 91.44)
 		)
 		(stroke
@@ -5769,26 +5629,6 @@
 			(type default)
 		)
 		(uuid "cdd0d8c5-2d71-4dd4-a9fc-fdd547f2478c")
-	)
-	(wire
-		(pts
-			(xy 114.3 106.68) (xy 115.57 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0c4857c-0960-4453-bd79-1a366f8fccc6")
-	)
-	(wire
-		(pts
-			(xy 196.85 34.29) (xy 193.04 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d11056ef-15ce-4b9c-ba98-8133218a7299")
 	)
 	(wire
 		(pts
@@ -5802,13 +5642,23 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 49.53) (xy 227.33 57.15)
+			(xy 115.57 99.06) (xy 115.57 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d156ba62-a5ac-4a40-a51a-60b8e4185e89")
+		(uuid "d277f3f7-218e-4d93-a45d-d94320009181")
+	)
+	(wire
+		(pts
+			(xy 162.56 46.99) (xy 181.61 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4835811-51ac-4f7e-a462-51edcb5fa006")
 	)
 	(wire
 		(pts
@@ -5822,26 +5672,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 68.58) (xy 205.74 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5013991-71e4-42fc-84cf-d099c4416f47")
-	)
-	(wire
-		(pts
-			(xy 93.98 114.3) (xy 104.14 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d82eac81-6d26-4f32-afc1-0ad1b1459d49")
-	)
-	(wire
-		(pts
 			(xy 30.48 63.5) (xy 30.48 66.04)
 		)
 		(stroke
@@ -5849,16 +5679,6 @@
 			(type default)
 		)
 		(uuid "d8d9b722-0f0c-4709-9845-6063ce409db6")
-	)
-	(wire
-		(pts
-			(xy 194.31 46.99) (xy 196.85 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df7fb896-66e4-410b-b394-f6e809064910")
 	)
 	(wire
 		(pts
@@ -5882,16 +5702,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 34.29) (xy 238.76 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb112d4f-5d21-4aaa-a59d-cc62876a7d5b")
-	)
-	(wire
-		(pts
 			(xy 73.66 35.56) (xy 88.9 35.56)
 		)
 		(stroke
@@ -5899,6 +5709,16 @@
 			(type default)
 		)
 		(uuid "ebbdb6e8-d7dd-4b3f-913a-2be3d146e28d")
+	)
+	(wire
+		(pts
+			(xy 204.47 41.91) (xy 215.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec311d41-6c20-450b-8c59-0cc2ff53bd36")
 	)
 	(wire
 		(pts
@@ -5912,13 +5732,43 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 35.56) (xy 176.53 34.29)
+			(xy 227.33 49.53) (xy 233.68 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef92afb9-8339-4cc2-8030-1ce0953564f1")
+		(uuid "f2a0d544-142b-45b5-b1ed-d1cc2dd123f9")
+	)
+	(wire
+		(pts
+			(xy 242.57 140.97) (xy 247.65 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34b2fbe-105d-4401-b1be-cbf75cb83ba4")
+	)
+	(wire
+		(pts
+			(xy 242.57 138.43) (xy 247.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3dbc08b-7b85-449c-add0-74dbf488305b")
+	)
+	(wire
+		(pts
+			(xy 93.98 110.49) (xy 104.14 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44211be-5f6b-46c8-b9d0-235aca54aba1")
 	)
 	(wire
 		(pts
@@ -5932,17 +5782,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 68.58) (xy 227.33 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5cdb49e-3997-4192-9136-0bb320446eb5")
-	)
-	(wire
-		(pts
-			(xy 80.01 151.13) (xy 87.63 151.13)
+			(xy 109.22 151.13) (xy 116.84 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5952,27 +5792,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 34.29) (xy 228.6 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7fdb416-2038-44b3-9f24-2f12c2985702")
-	)
-	(wire
-		(pts
-			(xy 217.17 114.3) (xy 226.06 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8bb3f14-7089-4a2c-bc4f-1d62e1bf0bdc")
-	)
-	(wire
-		(pts
-			(xy 226.06 104.14) (xy 217.17 104.14)
+			(xy 217.17 99.06) (xy 222.25 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5990,15 +5810,25 @@
 		)
 		(uuid "fada1047-11ae-4b8e-a38c-73f851366236")
 	)
-	(label "+5V_USB"
-		(at 22.86 104.14 0)
+	(wire
+		(pts
+			(xy 68.58 35.56) (xy 73.66 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca29378-bbbf-43dc-8336-c5b9a3f9c7b1")
+	)
+	(label "3.3V"
+		(at 242.57 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "0b481743-6bfe-468a-ac86-fd9592ff6910")
+		(uuid "0954b7a0-e659-42d5-8f88-04b7b07cf38e")
 	)
 	(label "GND"
 		(at 77.47 121.92 0)
@@ -6020,6 +5850,26 @@
 		)
 		(uuid "0f80b7d4-6977-46a2-8cfb-b936756ccb3e")
 	)
+	(label "+5V_USB"
+		(at 22.86 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1370b343-258d-434d-a446-b4029bad0a29")
+	)
+	(label "GND"
+		(at 176.53 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1588a9ac-43a5-4323-890c-22ca772d8e74")
+	)
 	(label "STAT1"
 		(at 22.86 116.84 0)
 		(effects
@@ -6040,15 +5890,25 @@
 		)
 		(uuid "1b818cea-8221-4b63-845b-35ffd91f6e79")
 	)
-	(label "PROG2"
-		(at 93.98 106.68 0)
+	(label "VBAT"
+		(at 236.22 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1e112547-c845-48c1-bcd0-d3b0148bf577")
+		(uuid "21adf885-767a-4424-be07-b731aae76063")
+	)
+	(label "GND"
+		(at 204.47 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "232830a7-1491-41dd-a425-c450aee08b36")
 	)
 	(label "+5V_USB"
 		(at 77.47 101.6 0)
@@ -6070,8 +5930,18 @@
 		)
 		(uuid "31e1d24e-d911-49cc-823e-b618b5a58aea")
 	)
+	(label "3.3V"
+		(at 163.83 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32741f19-5dfa-49d9-891b-afe135bd335f")
+	)
 	(label "B-"
-		(at 176.53 135.89 0)
+		(at 187.96 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6100,6 +5970,16 @@
 		)
 		(uuid "38832ab3-5146-4d34-a9d6-5dc3bddae9ed")
 	)
+	(label "CC1"
+		(at 54.61 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39a7417c-9d6c-477e-bd0e-0c9dab315864")
+	)
 	(label "GND"
 		(at 22.86 121.92 0)
 		(effects
@@ -6109,26 +5989,6 @@
 			(justify left bottom)
 		)
 		(uuid "3bca7af2-4a37-4897-a5de-143153d98064")
-	)
-	(label "OD"
-		(at 207.01 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ffed999-07b1-4111-b21b-9e287459ff66")
-	)
-	(label "OC"
-		(at 207.01 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "473b8f97-dded-466b-903b-ac229be76c18")
 	)
 	(label "PG#"
 		(at 22.86 111.76 0)
@@ -6170,8 +6030,18 @@
 		)
 		(uuid "51d27e86-146b-4375-bc26-4f5ae54f25ae")
 	)
+	(label "VSYS"
+		(at 229.87 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "531f4190-b19e-4a7e-8188-0fad0f9ad501")
+	)
 	(label "+5V_USB"
-		(at 80.01 140.97 0)
+		(at 109.22 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6179,6 +6049,16 @@
 			(justify left bottom)
 		)
 		(uuid "5767b84a-e65c-46c6-99b9-08b19319ab10")
+	)
+	(label "GND"
+		(at 203.2 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e957e9b-c931-4d55-bb8c-57296ac76029")
 	)
 	(label "GND"
 		(at 115.57 99.06 0)
@@ -6191,7 +6071,7 @@
 		(uuid "5ea5434d-38c2-4fdf-9224-a6aa164344a9")
 	)
 	(label "B-"
-		(at 219.71 104.14 0)
+		(at 219.71 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6200,8 +6080,28 @@
 		)
 		(uuid "5ec2f081-78f1-4a47-b931-ffee312d1741")
 	)
+	(label "GND"
+		(at 176.53 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f8dc1a3-33af-4c80-8fda-026360b59655")
+	)
+	(label "+5V_USB"
+		(at 88.9 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64963f78-0287-4648-9dcb-20f3404d679e")
+	)
 	(label "CSI"
-		(at 185.42 114.3 0)
+		(at 185.42 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6210,15 +6110,15 @@
 		)
 		(uuid "6ca934e6-8108-4d32-b962-b2c959f77f5e")
 	)
-	(label "3.3V"
-		(at 157.48 34.29 0)
+	(label "GND"
+		(at 242.57 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6d0859f1-5e93-409d-a266-fefe6ce4e8b2")
+		(uuid "6cf0e707-3c54-4f7f-a051-3e7ba3f7a1b7")
 	)
 	(label "+5V_USB"
 		(at 125.73 140.97 0)
@@ -6231,7 +6131,7 @@
 		(uuid "72163cda-38d2-4eae-864f-85cce393796a")
 	)
 	(label "PG#"
-		(at 83.82 151.13 0)
+		(at 113.03 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6239,6 +6139,26 @@
 			(justify left bottom)
 		)
 		(uuid "72d408cf-fca9-4bfc-9e68-49a3a9fe14cf")
+	)
+	(label "OD"
+		(at 219.71 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73a4db12-81da-47a8-931c-cd9214ee9def")
+	)
+	(label "PROG2"
+		(at 88.9 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74fe1331-a166-4b96-99d1-89971860ec2e")
 	)
 	(label "PROG3"
 		(at 77.47 119.38 0)
@@ -6261,7 +6181,7 @@
 		(uuid "7baa9d44-151e-4721-9fa1-1304550201b3")
 	)
 	(label "OD"
-		(at 185.42 111.76 0)
+		(at 185.42 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6300,18 +6220,28 @@
 		)
 		(uuid "84f47f0f-6cc8-4873-9586-746f945f50bc")
 	)
-	(label "CSI"
-		(at 207.01 138.43 0)
+	(label "CC1"
+		(at 21.59 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8bd7910d-7a40-43bc-a6e8-45131cf1be80")
+		(uuid "850eb0de-4be5-4224-a2ce-95005424cc57")
+	)
+	(label "CC2"
+		(at 64.77 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85ed3180-02b8-45e4-8f8d-d4a37f8ff680")
 	)
 	(label "CSI"
-		(at 176.53 138.43 0)
+		(at 185.42 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6329,26 +6259,6 @@
 			(justify left bottom)
 		)
 		(uuid "92e7cc29-0fe7-40ed-bc0d-9a5875c77815")
-	)
-	(label "VBAT"
-		(at 218.44 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ca0c05a-bd6d-4f4e-bbb0-a9b39e2cc965")
-	)
-	(label "VSYS"
-		(at 194.31 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9cc00675-bf54-4dc6-a850-5cb22ae6c592")
 	)
 	(label "VBUS"
 		(at 21.59 30.48 0)
@@ -6371,7 +6281,7 @@
 		(uuid "a1f36333-d225-4eb6-a044-dd3989c1f30c")
 	)
 	(label "B-"
-		(at 223.52 139.7 0)
+		(at 242.57 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6401,6 +6311,16 @@
 		(uuid "a4e57a0b-abc1-4294-be8c-5f44b833eb71")
 	)
 	(label "GND"
+		(at 229.87 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a59c9397-b39f-4824-96aa-608ef9e28fbe")
+	)
+	(label "GND"
 		(at 22.86 119.38 0)
 		(effects
 			(font
@@ -6410,8 +6330,28 @@
 		)
 		(uuid "ae12acda-c92e-449f-939c-63ea17de98c8")
 	)
+	(label "+5V_USB"
+		(at 22.86 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae622771-3679-4a46-b296-f11f36127463")
+	)
+	(label "3.3V"
+		(at 204.47 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af7299a8-4514-4333-8d8e-c88701b4574f")
+	)
 	(label "OC"
-		(at 185.42 116.84 0)
+		(at 185.42 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6431,7 +6371,7 @@
 		(uuid "b0f05937-83e9-4e56-92eb-edcd022a79df")
 	)
 	(label "VBAT"
-		(at 223.52 137.16 0)
+		(at 242.57 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6440,18 +6380,8 @@
 		)
 		(uuid "b1cb960d-57e7-4682-94b7-cc21572cb39f")
 	)
-	(label "VPCC"
-		(at 108.1106 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b8ac1374-f9f9-4f1b-ab9b-c71490152fb4")
-	)
 	(label "GND"
-		(at 176.53 140.97 0)
+		(at 187.96 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6470,6 +6400,16 @@
 		)
 		(uuid "bac5e44b-1ad2-489a-9f1a-7c8a07899cb5")
 	)
+	(label "OC"
+		(at 219.71 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb78b5c8-6702-40f2-a4ef-2469a5f16529")
+	)
 	(label "PROG1"
 		(at 77.47 116.84 0)
 		(effects
@@ -6480,6 +6420,16 @@
 		)
 		(uuid "bc3f1ef5-aaa9-4687-88e1-da116e3212da")
 	)
+	(label "VSYS"
+		(at 176.53 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bccebc51-143c-484b-b7fe-7bca15f46346")
+	)
 	(label "GND"
 		(at 21.59 27.94 0)
 		(effects
@@ -6489,6 +6439,18 @@
 			(justify left bottom)
 		)
 		(uuid "bd129a01-e321-4621-ba82-b3efc9466821")
+	)
+	(label "GND"
+		(at 58.42 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "be0cc4a6-b224-4a88-b3f1-50c7a4935706")
 	)
 	(label "VSYS"
 		(at 49.53 140.97 0)
@@ -6501,7 +6463,7 @@
 		(uuid "bea404e5-1d16-4f4a-998c-95b7fdda41a2")
 	)
 	(label "PROG3"
-		(at 93.98 114.3 0)
+		(at 93.98 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6519,16 +6481,6 @@
 			(justify left bottom)
 		)
 		(uuid "c42db02a-6aa8-4e8b-910c-535b6e67105d")
-	)
-	(label "GND"
-		(at 109.2755 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5c939a6-a691-4b55-905e-1626f39296ac")
 	)
 	(label "GND"
 		(at 78.74 48.26 0)
@@ -6572,6 +6524,16 @@
 		)
 		(uuid "e9ba19a5-c020-4770-a03a-069de41b086f")
 	)
+	(label "CC2"
+		(at 21.59 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea72188f-5bde-42c4-8e85-f441af96ad55")
+	)
 	(label "VSYS"
 		(at 77.47 99.06 0)
 		(effects
@@ -6581,6 +6543,16 @@
 			(justify left bottom)
 		)
 		(uuid "ecf8e21c-d6ba-4614-9ab8-92a489999acb")
+	)
+	(label "GND"
+		(at 208.28 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2efc5de-778e-4ffd-8fca-7fc3440707f5")
 	)
 	(label "+5V_USB"
 		(at 101.6 35.56 0)
@@ -6592,19 +6564,19 @@
 		)
 		(uuid "f5798e66-f0cd-48bf-b565-79584fc6f8f4")
 	)
-	(label "VPCC"
-		(at 22.86 101.6 0)
+	(label "GND"
+		(at 163.83 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ff2bba52-aa58-4e4a-a834-83d5c3dba7af")
+		(uuid "fc8ceca3-09db-4f29-9276-925c976f7fed")
 	)
 	(symbol
 		(lib_id "lcsc_imported:S2B-PH-K-S(LF)(SN)")
-		(at 233.68 138.43 0)
+		(at 252.73 125.73 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6614,8 +6586,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02465f73-3827-4e83-a355-c5a4252356cf")
-		(property "Reference" "BAT1"
-			(at 233.172 132.588 0)
+		(property "Reference" "Battery1"
+			(at 250.698 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6626,7 +6598,7 @@
 			)
 		)
 		(property "Value" "S2B-PH-K-S(LF)(SN)"
-			(at 240.03 137.1601 0)
+			(at 259.08 124.4601 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6638,7 +6610,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C173752_CONN-TH_S2B-PH-K-S-LF-SN"
-			(at 233.68 128.27 0)
+			(at 252.73 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6649,7 +6621,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-S2B-PH-K-S-LF-SN_C173752.pdf"
-			(at 231.394 138.557 0)
+			(at 250.444 125.857 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6660,7 +6632,7 @@
 			)
 		)
 		(property "Description" "S2B-PH-K-S(LF)(SN)"
-			(at 233.68 138.43 0)
+			(at 252.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6671,7 +6643,7 @@
 			)
 		)
 		(property "LCSC" "C173752"
-			(at 233.68 138.43 0)
+			(at 252.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6682,7 +6654,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 233.68 138.43 0)
+			(at 252.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6701,15 +6673,15 @@
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "BAT1")
+					(reference "Battery1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:1KΩ_(1001)_±1%")
-		(at 109.22 106.68 0)
+		(lib_id "lcsc_imported:FRC0603F9102TS")
+		(at 162.56 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6717,29 +6689,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0756cf06-7e6b-4dfc-8b6f-10e82258187d")
-		(property "Reference" "R6"
-			(at 109.22 104.648 0)
+		(fields_autoplaced yes)
+		(uuid "02fb6e00-c331-4355-9563-f41189851c1e")
+		(property "Reference" "R4"
+			(at 165.1 50.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "1KΩ"
-			(at 109.22 108.966 0)
+		(property "Value" "91 kΩ"
+			(at 165.1 53.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C11702_R0402"
-			(at 109.22 116.84 0)
+		(property "Footprint" "lcsc_footprints:C2907077_R0603"
+			(at 172.72 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6749,8 +6724,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
-			(at 106.934 106.553 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0603F9102TS_C2907077.pdf"
+			(at 162.433 54.356 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6760,8 +6735,8 @@
 				)
 			)
 		)
-		(property "Description" "1KΩ (1001) ±1%"
-			(at 109.22 106.68 0)
+		(property "Description" "FRC0603F9102TS"
+			(at 162.56 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6771,8 +6746,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
-			(at 109.22 106.68 0)
+		(property "LCSC" "C2907077"
+			(at 162.56 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6782,8 +6757,112 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 109.22 106.68 0)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 162.56 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cd60172-5741-4177-b7e6-54833ea4ad0c")
+		)
+		(pin "2"
+			(uuid "9e5db304-f609-4065-92f7-3a8a4b98fd39")
+		)
+		(instances
+			(project "Li-Po_Battery_Charger"
+				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:RT0603BRD07511KL")
+		(at 162.56 41.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07cc7592-e240-447f-92f9-16f72696bb77")
+		(property "Reference" "R3"
+			(at 165.1 40.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "511kΩ"
+			(at 165.1 43.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C861454_R0603"
+			(at 172.72 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210190000_YAGEO-RT0603BRD07511KL_C861454.pdf"
+			(at 162.433 44.196 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RT0603BRD07511KL"
+			(at 162.56 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C861454"
+			(at 162.56 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 162.56 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6794,23 +6873,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "b3fc9c80-67f4-48d0-9558-a71957334876")
+			(uuid "67e6206a-ff50-4749-be23-67d5ccb48bea")
 		)
 		(pin "1"
-			(uuid "6cb72834-8b8f-42f1-82b1-27eeaa089a18")
+			(uuid "a5d9f8a9-77e8-4f96-b657-f934358d98a1")
 		)
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "R6")
+					(reference "R3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 176.53 46.99 0)
+		(lib_id "lcsc_imported:1206L150THWR")
+		(at 63.5 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6818,9 +6897,111 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0f7c8a77-3859-4acb-98cb-979cef959957")
-		(property "Reference" "#PWR05"
-			(at 176.53 53.34 0)
+		(uuid "097ae88c-2579-4e8b-b760-eea30614393e")
+		(property "Reference" "F1"
+			(at 63.246 33.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5A"
+			(at 63.5 37.338 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C118413_F1206"
+			(at 63.5 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Littelfuse-1206L150THWR_C118413.pdf"
+			(at 61.214 35.433 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1206L150THWR"
+			(at 63.5 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C118413"
+			(at 63.5 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse(美国力特)"
+			(at 63.5 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9107795-9171-4a16-aa20-db594ee5f5a2")
+		)
+		(pin "2"
+			(uuid "b6995f0d-5dc2-42d7-b3e7-f16bdc337e62")
+		)
+		(instances
+			(project "Li-Po_Battery_Charger"
+				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e5d6c9d-17d1-4444-a2e4-b24d2bb1d2df")
+		(property "Reference" "#PWR02"
+			(at 59.69 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6831,7 +7012,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 50.8 0)
+			(at 59.69 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6841,7 +7022,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 46.99 0)
+			(at 59.69 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6852,7 +7033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 46.99 0)
+			(at 59.69 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6863,7 +7044,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 46.99 0)
+			(at 59.69 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6874,343 +7055,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0cbb48f2-dc9f-44b7-843e-c29deb2f0f84")
+			(uuid "c5948117-ac6b-44e5-9552-04f364150006")
 		)
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:MP1584EN-LF-Z")
-		(at 209.55 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "149ccbc3-6cb7-4339-8d94-d77b0e77e006")
-		(property "Reference" "U2"
-			(at 209.55 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MP1584EN-LF-Z"
-			(at 209.55 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C15051_SOIC-8_L5_0-W4_0-P1_27-LS6_0-BL-EP2_0"
-			(at 209.55 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.264 48.133 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "MP1584EN-LF-Z"
-			(at 209.55 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C15051"
-			(at 209.55 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "MPS(芯源)"
-			(at 209.55 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "018f48c9-219c-476e-b93c-c43172873c6a")
-		)
-		(pin "3"
-			(uuid "aa6dc3ad-f8e0-4bf1-9a46-d9939e4dcb1b")
-		)
-		(pin "7"
-			(uuid "f37bdead-26cb-45e9-8e3d-2f55bd49b2c3")
-		)
-		(pin "2"
-			(uuid "dfca7529-d834-4671-80e9-363cff7ed5c3")
-		)
-		(pin "1"
-			(uuid "dba2d94a-c268-4347-b97a-de3b79cb023d")
-		)
-		(pin "6"
-			(uuid "58d4c858-2d63-49a9-bd4a-a627e5b69dcc")
-		)
-		(pin "5"
-			(uuid "a9817688-8167-425e-9d1c-1939b0440cca")
-		)
-		(pin "9"
-			(uuid "025811e8-8ae7-4547-bb04-1b30f338137c")
-		)
-		(pin "4"
-			(uuid "98ae2f27-4514-456e-a68d-7dd7a6f1aedc")
-		)
-		(instances
-			(project "Li-Po_Battery_Charger"
-				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:HGC0603R5226M160NTHJ")
-		(at 238.76 57.15 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21ded84e-4436-4e51-a184-ce9264d396a3")
-		(property "Reference" "C3"
-			(at 242.57 55.8799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 242.57 58.4199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C22367828_C0603"
-			(at 228.6 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403261048_Chinocera-HGC0603R5226M160NTHJ_C22367828.pdf"
-			(at 238.887 54.864 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "HGC0603R5226M160NTHJ"
-			(at 238.76 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22367828"
-			(at 238.76 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Chinocera(华瓷)"
-			(at 238.76 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fb3dc403-e4fd-4494-a90b-013880c7dd4c")
-		)
-		(pin "2"
-			(uuid "f6dd959a-a9e0-445b-9482-ccea8b77f558")
-		)
-		(instances
-			(project "Li-Po_Battery_Charger"
-				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:RMC040231_6K1%N")
-		(at 157.48 45.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "22136c02-79ca-4e39-9fd3-14893900a698")
-		(property "Reference" "R2"
-			(at 159.512 46.228 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RMC040231.6K1%N"
-			(at 160.02 46.9899 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C325374_R0402"
-			(at 167.64 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_TyoHM-RMC040231-6K1-N_C325374.pdf"
-			(at 157.353 48.006 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RMC040231.6K1%N"
-			(at 157.48 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C325374"
-			(at 157.48 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Tyohm(幸亚电阻)"
-			(at 157.48 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c5955712-6a47-437d-b5f5-1d932b213b4d")
-		)
-		(pin "1"
-			(uuid "131d132c-056f-44a5-964a-407f81d5702f")
-		)
-		(instances
-			(project "Li-Po_Battery_Charger"
-				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "R2")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7228,7 +7078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22b7a940-5c35-49c8-93ea-16e69b0b9ec8")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG01"
 			(at 21.59 26.035 0)
 			(hide yes)
 			(show_name no)
@@ -7288,15 +7138,15 @@
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "#FLG03")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:10nF_(103)_±10%_50V")
-		(at 209.55 68.58 0)
+		(lib_id "lcsc_imported:5_1KΩ_(5101)_±1%")
+		(at 64.77 54.61 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7304,9 +7154,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "258a9266-8813-45e3-890e-c10b4d753805")
-		(property "Reference" "C4"
-			(at 209.55 65.532 0)
+		(uuid "2ca66c86-b10e-478d-8bac-19b9820bf11b")
+		(property "Reference" "R2"
+			(at 60.96 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7315,8 +7165,8 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
-			(at 209.296 71.628 0)
+		(property "Value" "5.1KΩ"
+			(at 60.452 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7325,8 +7175,8 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C15195_C0402"
-			(at 209.55 78.74 0)
+		(property "Footprint" "lcsc_footprints:C25905_R0402"
+			(at 74.93 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7336,8 +7186,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
-			(at 207.264 68.453 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
+			(at 64.643 56.896 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7347,8 +7197,8 @@
 				)
 			)
 		)
-		(property "Description" "10nF (103) ±10% 50V"
-			(at 209.55 68.58 0)
+		(property "Description" "5.1KΩ (5101) ±1%"
+			(at 64.77 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7358,8 +7208,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C15195"
-			(at 209.55 68.58 0)
+		(property "LCSC" "C25905"
+			(at 64.77 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7369,8 +7219,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 209.55 68.58 0)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 64.77 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7381,170 +7231,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "356ae83a-e6f3-40a6-b6fe-5d27235ce46a")
+			(uuid "41c4a21f-0aa4-4a55-9521-349c1f65b496")
 		)
 		(pin "1"
-			(uuid "b1e6360b-fea7-4433-a4c9-0a288615d82e")
+			(uuid "fe813efd-2462-42cd-8fa7-cf671fcbf1aa")
 		)
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 238.76 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26a4f495-c2b2-4265-8dca-4da410ce731c")
-		(property "Reference" "#PWR07"
-			(at 238.76 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 238.76 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d27c95c1-0896-4528-815e-72fe28780b48")
-		)
-		(instances
-			(project "Li-Po_Battery_Charger"
-				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 209.55 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2a3f3b2b-2620-4a5b-a5bb-6ea974fc8f80")
-		(property "Reference" "#PWR09"
-			(at 209.55 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 209.55 60.706 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "20a53926-765b-4f6e-9715-2c546fa18c95")
-		)
-		(instances
-			(project "Li-Po_Battery_Charger"
-				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "#PWR09")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7562,7 +7257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e21a817-e24b-404d-b84f-11c44584b57b")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 54.61 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7703,108 +7398,7 @@
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:RC0402FR-07100KL")
-		(at 227.33 62.23 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2e78aa41-f4f7-4744-a5db-ff9d9ad32f75")
-		(property "Reference" "R3"
-			(at 231.394 60.96 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100KΩ"
-			(at 231.902 63.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C60491_R0402"
-			(at 237.49 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-07100KL_C60491.pdf"
-			(at 227.203 64.516 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RC0402FR-07100KL"
-			(at 227.33 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C60491"
-			(at 227.33 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 227.33 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c38885ca-ebe5-46cd-b27c-d5288eb57c21")
-		)
-		(pin "2"
-			(uuid "83294551-952c-4b51-aebd-b387b9224973")
-		)
-		(instances
-			(project "Li-Po_Battery_Charger"
-				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "R3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7812,7 +7406,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:FS8205A_C908265")
-		(at 194.31 138.43 0)
+		(at 205.74 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7823,7 +7417,7 @@
 		(fields_autoplaced yes)
 		(uuid "31aa0b23-a39d-4c23-af82-f47368164048")
 		(property "Reference" "Q1"
-			(at 194.31 128.27 0)
+			(at 205.74 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7833,7 +7427,7 @@
 			)
 		)
 		(property "Value" "FS8205A_C908265"
-			(at 194.31 130.81 0)
+			(at 205.74 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7843,7 +7437,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C908265_SOT-23-6_L2_9-W1_6-P0_95-LS2_8-BR"
-			(at 194.31 148.59 0)
+			(at 205.74 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7854,7 +7448,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2010271837_FUXINSEMI-FS8205A_C908265.pdf"
-			(at 192.024 138.303 0)
+			(at 203.454 138.303 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7865,7 +7459,7 @@
 			)
 		)
 		(property "Description" "FS8205A_C908265"
-			(at 194.31 138.43 0)
+			(at 205.74 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7876,7 +7470,7 @@
 			)
 		)
 		(property "LCSC" "C908265"
-			(at 194.31 138.43 0)
+			(at 205.74 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7887,7 +7481,7 @@
 			)
 		)
 		(property "Manufacturer" "FUXINSEMI(富芯森美)"
-			(at 194.31 138.43 0)
+			(at 205.74 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8029,6 +7623,109 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:HGC0603R5226M160NTHJ")
+		(at 204.47 54.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3674046e-be3a-49d1-885f-d6a6fd1ab65f")
+		(property "Reference" "C4"
+			(at 208.28 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uF"
+			(at 207.518 56.134 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C22367828_C0603"
+			(at 214.63 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403261048_Chinocera-HGC0603R5226M160NTHJ_C22367828.pdf"
+			(at 204.343 56.896 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "HGC0603R5226M160NTHJ"
+			(at 204.47 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22367828"
+			(at 204.47 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Chinocera(华瓷)"
+			(at 204.47 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "119c371d-73cd-4cc6-aa65-36062b607fc8")
+		)
+		(pin "1"
+			(uuid "baec91d2-a466-49a6-a0bc-dca1bf8031d0")
+		)
+		(instances
+			(project "Li-Po_Battery_Charger"
+				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc_imported:TYPE-C_16P(073)")
 		(at 38.1 48.26 0)
 		(unit 1)
@@ -8039,7 +7736,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37ee3f0f-682b-413c-bd93-e805241bc236")
-		(property "Reference" "USB1"
+		(property "Reference" "USB-C1"
 			(at 36.83 20.828 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8167,7 +7864,7 @@
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "USB1")
+					(reference "USB-C1")
 					(unit 1)
 				)
 			)
@@ -8185,7 +7882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "450951a1-7d2d-492c-bf3c-37c7ad30ee9c")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 53.34 144.7799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8271,7 +7968,108 @@
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "C8")
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:RT0402DRE0710KL")
+		(at 83.82 146.05 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "473d6c2d-4a87-4352-a30f-88f8046ed64f")
+		(property "Reference" "R12"
+			(at 80.518 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 80.264 147.066 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C326912_R0402"
+			(at 73.66 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011622_YAGEO-RT0402DRE0710KL_C326912.pdf"
+			(at 83.947 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RT0402DRE0710KL"
+			(at 83.82 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C326912"
+			(at 83.82 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 83.82 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7deacc15-bdc3-49a1-9142-70a94abdec0d")
+		)
+		(pin "2"
+			(uuid "8269ac83-f407-4f1b-b446-ecde439f2298")
+		)
+		(instances
+			(project "Li-Po_Battery_Charger"
+				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8487,7 +8285,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:FCC0603B104K101CT")
-		(at 226.06 109.22 90)
+		(at 222.25 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8495,10 +8293,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4ea45137-1239-4974-8fcf-e96bda0cd81d")
-		(property "Reference" "C11"
-			(at 229.87 107.9499 90)
+		(property "Reference" "C5"
+			(at 224.536 102.362 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8509,7 +8306,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 229.87 110.4899 90)
+			(at 224.79 105.156 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8520,7 +8317,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C5137616_C0603"
-			(at 236.22 109.22 0)
+			(at 232.41 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8531,7 +8328,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208181800_FOJAN-FCC0603B104K101CT_C5137616.pdf"
-			(at 225.933 111.506 0)
+			(at 222.123 106.426 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8542,7 +8339,7 @@
 			)
 		)
 		(property "Description" "FCC0603B104K101CT"
-			(at 226.06 109.22 0)
+			(at 222.25 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8553,7 +8350,7 @@
 			)
 		)
 		(property "LCSC" "C5137616"
-			(at 226.06 109.22 0)
+			(at 222.25 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8564,7 +8361,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN(富捷)"
-			(at 226.06 109.22 0)
+			(at 222.25 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8583,15 +8380,15 @@
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "C11")
+					(reference "C5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:RC0402FR-07100KL")
-		(at 109.22 114.3 0)
+		(lib_id "lcsc_imported:GCM188D70J106ME36D")
+		(at 227.33 44.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8599,29 +8396,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "67d680a8-7d77-4c9c-83fb-27de3759be18")
-		(property "Reference" "R7"
-			(at 109.22 112.014 0)
+		(uuid "50841074-fbbf-49e9-bceb-617a4c55ed16")
+		(property "Reference" "C3"
+			(at 230.632 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "100KΩ"
-			(at 109.22 116.586 0)
+		(property "Value" "10uF"
+			(at 230.378 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C60491_R0402"
-			(at 109.22 124.46 0)
+		(property "Footprint" "lcsc_footprints:C3039641_C0603"
+			(at 237.49 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8631,8 +8430,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-07100KL_C60491.pdf"
-			(at 106.934 114.173 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206171701_Murata-Electronics-GCM188D70J106ME36D_C3039641.pdf"
+			(at 227.203 46.736 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8642,8 +8441,8 @@
 				)
 			)
 		)
-		(property "Description" "RC0402FR-07100KL"
-			(at 109.22 114.3 0)
+		(property "Description" "GCM188D70J106ME36D"
+			(at 227.33 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8653,8 +8452,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C60491"
-			(at 109.22 114.3 0)
+		(property "LCSC" "C3039641"
+			(at 227.33 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8664,8 +8463,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 109.22 114.3 0)
+		(property "Manufacturer" "muRata(村田)"
+			(at 227.33 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8676,15 +8475,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2aa958ff-34cd-4f1a-b793-fcb7590a1f9b")
+			(uuid "6414c46d-6424-4509-b40e-53d1eb3e93be")
 		)
 		(pin "2"
-			(uuid "3a45abf9-7e08-4243-b39b-dbd58867f6c8")
+			(uuid "30201913-4b16-449d-80b8-f01fff1c2779")
 		)
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "R7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8702,7 +8501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d5f10e7-7f66-406c-a5b3-fc8772b6d404")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 73.66 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8762,7 +8561,317 @@
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "#PWR03")
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:1KΩ_(1001)_±1%")
+		(at 194.31 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6dcd2a37-e060-45b3-babb-22e7d01d5aeb")
+		(property "Reference" "R11"
+			(at 194.31 118.618 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1KΩ"
+			(at 194.056 122.936 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C11702_R0402"
+			(at 194.31 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
+			(at 196.596 120.777 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1KΩ (1001) ±1%"
+			(at 194.31 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 194.31 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 194.31 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3bfa0c3a-a3f7-47f0-83f9-6a3584fc11a4")
+		)
+		(pin "1"
+			(uuid "6f05dc72-7d96-4567-8f2c-d15aa43891d8")
+		)
+		(instances
+			(project "Li-Po_Battery_Charger"
+				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:MHCI04012N-R47M-R8")
+		(at 215.9 46.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7091294e-fcfb-474f-8e3d-568a96b121ce")
+		(property "Reference" "L1"
+			(at 217.17 45.7199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.47 µH"
+			(at 217.17 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C285747_IND-SMD_L4_0-W4_0_CHILISIN_MHCI04012N"
+			(at 226.06 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.773 49.276 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MHCI04012N-R47M-R8"
+			(at 215.9 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C285747"
+			(at 215.9 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Chilisin(奇力新)"
+			(at 215.9 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d043736-3d55-416f-823a-b73942c9fb78")
+		)
+		(pin "2"
+			(uuid "ce5d5159-f48a-4945-9179-6092e31ace44")
+		)
+		(instances
+			(project "Li-Po_Battery_Charger"
+				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:S2B-PH-K-S(LF)(SN)")
+		(at 252.73 139.7 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "72040717-8994-4fb2-b344-d1a3eee9c1bb")
+		(property "Reference" "Load1"
+			(at 251.714 134.366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-PH-K-S(LF)(SN)"
+			(at 259.08 138.4301 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C173752_CONN-TH_S2B-PH-K-S-LF-SN"
+			(at 252.73 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-S2B-PH-K-S-LF-SN_C173752.pdf"
+			(at 250.444 139.827 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "S2B-PH-K-S(LF)(SN)"
+			(at 252.73 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C173752"
+			(at 252.73 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 252.73 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85b65433-132e-4c8e-99ad-74b534a0f415")
+		)
+		(pin "2"
+			(uuid "0f25adb6-8700-4ccf-8e74-d548569f871a")
+		)
+		(instances
+			(project "Li-Po_Battery_Charger"
+				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
+					(reference "Load1")
 					(unit 1)
 				)
 			)
@@ -8884,7 +8993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7804a029-80e1-493c-a066-89624654e3c9")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 36.83 144.7799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8970,7 +9079,7 @@
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9082,317 +9191,6 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:RT0402DRE0710KL")
-		(at 194.31 60.96 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f0fc06d-2d90-4b8d-92fd-ff3bf793ca7e")
-		(property "Reference" "R4"
-			(at 196.85 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 196.85 62.2299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C326912_R0402"
-			(at 204.47 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011622_YAGEO-RT0402DRE0710KL_C326912.pdf"
-			(at 194.183 63.246 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RT0402DRE0710KL"
-			(at 194.31 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C326912"
-			(at 194.31 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 194.31 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7f0f169c-e611-4ec3-a5be-9a5cf62a08b8")
-		)
-		(pin "2"
-			(uuid "9968f978-b935-49cb-a460-68bfa5e36ccb")
-		)
-		(instances
-			(project "Li-Po_Battery_Charger"
-				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:FCC0603B104K101CT")
-		(at 224.79 39.37 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9637a071-32e9-4d84-85c4-3f46060b5756")
-		(property "Reference" "C6"
-			(at 228.6 38.0999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 228.6 40.6399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C5137616_C0603"
-			(at 234.95 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208181800_FOJAN-FCC0603B104K101CT_C5137616.pdf"
-			(at 224.663 41.656 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "FCC0603B104K101CT"
-			(at 224.79 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5137616"
-			(at 224.79 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "FOJAN(富捷)"
-			(at 224.79 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9682d970-8d53-4ab3-ba1c-55daacd8dfa3")
-		)
-		(pin "1"
-			(uuid "b8457952-0576-4912-9d35-ec4da163a9f0")
-		)
-		(instances
-			(project "Li-Po_Battery_Charger"
-				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:HGC0603R5226M160NTHJ")
-		(at 176.53 40.64 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9fedac13-ae42-45fb-808a-8b4a67a7d254")
-		(property "Reference" "C5"
-			(at 180.34 39.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF"
-			(at 179.578 42.164 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C22367828_C0603"
-			(at 186.69 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403261048_Chinocera-HGC0603R5226M160NTHJ_C22367828.pdf"
-			(at 176.403 42.926 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "HGC0603R5226M160NTHJ"
-			(at 176.53 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22367828"
-			(at 176.53 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Chinocera(华瓷)"
-			(at 176.53 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f7504dbe-3446-4339-865f-d482b92222b2")
-		)
-		(pin "1"
-			(uuid "27d64e85-1799-44ab-ba74-83f4b3488dc7")
-		)
-		(instances
-			(project "Li-Po_Battery_Charger"
-				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:RT0402DRE0710KL")
 		(at 125.73 146.05 270)
 		(unit 1)
 		(body_style 1)
@@ -9402,7 +9200,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5770bd9-8251-436b-aab5-703738edf2ae")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 129.286 145.034 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9486,15 +9284,15 @@
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:TCC0603X5R106M350CT")
-		(at 104.14 146.05 90)
+		(lib_id "lcsc_imported:RC0402FR-07100RL")
+		(at 231.14 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9502,32 +9300,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b01eabd2-4849-4ec6-bf87-c0e2105ec4b3")
-		(property "Reference" "C10"
-			(at 107.95 144.7799 90)
+		(uuid "b3cabd85-b8fe-42f4-8ba3-a07760eb258c")
+		(property "Reference" "R9"
+			(at 231.14 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10uF"
-			(at 107.95 147.3199 90)
+		(property "Value" "100Ω"
+			(at 231.14 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C22392391_C0603"
-			(at 114.3 146.05 0)
+		(property "Footprint" "lcsc_footprints:C106232_R0402"
+			(at 231.14 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9537,8 +9332,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2405091603_CCTC-TCC0603X5R106M350CT_C22392391.pdf"
-			(at 104.013 148.336 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-07100RL_C106232.pdf"
+			(at 228.854 109.093 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9548,8 +9343,8 @@
 				)
 			)
 		)
-		(property "Description" "TCC0603X5R106M350CT"
-			(at 104.14 146.05 0)
+		(property "Description" "RC0402FR-07100RL"
+			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9559,8 +9354,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C22392391"
-			(at 104.14 146.05 0)
+		(property "LCSC" "C106232"
+			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9570,8 +9365,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CCTC(三环)"
-			(at 104.14 146.05 0)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9580,95 +9375,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "29751626-49c1-4aa2-a5b6-ad62cb2f9959")
 		)
 		(pin "2"
-			(uuid "cd8728e0-4cf0-4075-ad93-059b8f4e39c9")
-		)
-		(pin "1"
-			(uuid "fecaba4a-6cf6-4bc9-a5de-aa3fc8ab2007")
+			(uuid "8e978ef1-c77e-4df5-bd20-83073cb3fdfa")
 		)
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 227.33 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8351a0a-b3dc-4c06-bf0a-3622704d4c33")
-		(property "Reference" "#PWR06"
-			(at 227.33 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 227.33 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b64e01fe-22dc-4ceb-9f85-27ebaa00e7db")
-		)
-		(instances
-			(project "Li-Po_Battery_Charger"
-				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "#PWR06")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9686,7 +9403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8637662-a47b-4841-9dad-f36f4c0b5656")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR03"
 			(at 22.86 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9746,108 +9463,7 @@
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:0_50A_24V")
-		(at 64.77 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c8de3fcf-f8bb-4ab6-8552-d385c765449b")
-		(property "Reference" "F1"
-			(at 63.754 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.50A 24V"
-			(at 63.754 39.116 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C70076_F1206"
-			(at 64.77 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.484 34.163 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0.50A 24V"
-			(at 64.77 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C70076"
-			(at 64.77 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "台湾陆海"
-			(at 64.77 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e5741db3-1a30-4918-8f0e-337dec710b12")
-		)
-		(pin "2"
-			(uuid "5d22f407-6b53-4618-96f8-bafe629c8c20")
-		)
-		(instances
-			(project "Li-Po_Battery_Charger"
-				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "F1")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9932,85 +9548,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 157.48 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d0d7df34-d5df-470c-aaca-6c27dbc268ef")
-		(property "Reference" "#PWR04"
-			(at 157.48 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 70.866 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "31c6ba32-f1db-4fd3-a0b3-1459b6d45560")
-		)
-		(instances
-			(project "Li-Po_Battery_Charger"
-				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lcsc_imported:RT0402DRE0710KL")
-		(at 80.01 146.05 270)
+		(at 109.22 146.05 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10019,8 +9558,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2d563e1-900f-456d-a006-e074f9a0245e")
-		(property "Reference" "R11"
-			(at 83.566 145.034 90)
+		(property "Reference" "R13"
+			(at 112.776 145.034 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10030,7 +9569,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 83.566 147.32 90)
+			(at 112.776 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10040,7 +9579,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C326912_R0402"
-			(at 69.85 146.05 0)
+			(at 99.06 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10051,7 +9590,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011622_YAGEO-RT0402DRE0710KL_C326912.pdf"
-			(at 80.137 143.764 0)
+			(at 109.347 143.764 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10062,7 +9601,7 @@
 			)
 		)
 		(property "Description" "RT0402DRE0710KL"
-			(at 80.01 146.05 0)
+			(at 109.22 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10073,7 +9612,7 @@
 			)
 		)
 		(property "LCSC" "C326912"
-			(at 80.01 146.05 0)
+			(at 109.22 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10084,7 +9623,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 80.01 146.05 0)
+			(at 109.22 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10103,7 +9642,7 @@
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10120,7 +9659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8273315-e9ae-4f5b-b0df-05773c76acea")
-		(property "Reference" "R9"
+		(property "Reference" "R6"
 			(at 127.762 99.314 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10204,7 +9743,7 @@
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "R9")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10221,7 +9760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d95a6c5b-20e5-41df-9393-e0074fc796da")
-		(property "Reference" "R10"
+		(property "Reference" "R7"
 			(at 139.192 99.314 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10305,7 +9844,7 @@
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "R10")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10323,7 +9862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d95e16cd-667e-472f-8fb1-2ef8be252f03")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 68.58 144.7799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10409,15 +9948,15 @@
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:RT0402DRE0710KL")
-		(at 157.48 58.42 90)
+		(lib_id "lcsc_imported:5_1KΩ_(5101)_±1%")
+		(at 54.61 54.61 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10425,32 +9964,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd063a49-8dd0-4912-934e-b46172e135f9")
+		(uuid "dc1fb938-1682-43f8-8fe9-8e77656ce536")
 		(property "Reference" "R1"
-			(at 160.02 57.1499 90)
+			(at 50.8 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10kΩ"
-			(at 160.02 59.6899 90)
+		(property "Value" "5.1KΩ"
+			(at 50.292 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C326912_R0402"
-			(at 167.64 58.42 0)
+		(property "Footprint" "lcsc_footprints:C25905_R0402"
+			(at 64.77 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10460,8 +9996,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811011622_YAGEO-RT0402DRE0710KL_C326912.pdf"
-			(at 157.353 60.706 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
+			(at 54.483 56.896 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10471,8 +10007,8 @@
 				)
 			)
 		)
-		(property "Description" "RT0402DRE0710KL"
-			(at 157.48 58.42 0)
+		(property "Description" "5.1KΩ (5101) ±1%"
+			(at 54.61 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10482,8 +10018,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C326912"
-			(at 157.48 58.42 0)
+		(property "LCSC" "C25905"
+			(at 54.61 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10493,8 +10029,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 157.48 58.42 0)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 54.61 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10503,12 +10039,12 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "5ec25d24-489e-46eb-9cb2-742dd043fa40")
 		)
 		(pin "2"
-			(uuid "5cfd84b2-0a58-441e-b84c-27ba7d43d7c4")
+			(uuid "4d88cedc-012b-41ba-aa7b-4b218c14519d")
+		)
+		(pin "1"
+			(uuid "a6143508-980f-4f41-baf5-b1f74e8dbe68")
 		)
 		(instances
 			(project "Li-Po_Battery_Charger"
@@ -10622,7 +10158,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:DW01A_C42459937")
-		(at 204.47 114.3 0)
+		(at 204.47 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10632,8 +10168,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0829b81-566e-428d-9c2f-6045cd8a3bae")
-		(property "Reference" "U1"
-			(at 204.47 104.14 0)
+		(property "Reference" "U3"
+			(at 204.47 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10643,7 +10179,7 @@
 			)
 		)
 		(property "Value" "DW01A"
-			(at 204.47 106.68 0)
+			(at 204.47 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10653,7 +10189,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C42459937_SOT-23-6_L2_9-W1_6-P0_95-LS2_8-BL"
-			(at 204.47 124.46 0)
+			(at 204.47 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10664,7 +10200,7 @@
 			)
 		)
 		(property "Datasheet" "None"
-			(at 202.184 114.173 0)
+			(at 202.184 109.093 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10675,7 +10211,7 @@
 			)
 		)
 		(property "Description" "DW01A_C42459937"
-			(at 204.47 114.3 0)
+			(at 204.47 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10686,7 +10222,7 @@
 			)
 		)
 		(property "LCSC" "C42459937"
-			(at 204.47 114.3 0)
+			(at 204.47 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10697,7 +10233,7 @@
 			)
 		)
 		(property "Manufacturer" "KUU"
-			(at 204.47 114.3 0)
+			(at 204.47 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10728,6 +10264,132 @@
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:TPS63802DLAR")
+		(at 193.04 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8a9e20c-e0eb-40b5-88c3-71be25cbb015")
+		(property "Reference" "U1"
+			(at 193.04 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS63802DLAR"
+			(at 193.04 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C2845237_VSON-10_L3_0-W2_0-P0_50-TL"
+			(at 193.04 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220830_Texas-Instruments-TPS63802DLAR_C2845237.pdf"
+			(at 190.754 44.323 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TPS63802DLAR"
+			(at 193.04 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2845237"
+			(at 193.04 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 193.04 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "41093ee7-df6d-4ace-9a86-726cbc25ff34")
+		)
+		(pin "5"
+			(uuid "c9d30e0a-80f7-4dc2-951f-5322109e876f")
+		)
+		(pin "3"
+			(uuid "47997454-9b8b-4046-80a0-d2f5632c9eee")
+		)
+		(pin "2"
+			(uuid "a0a25c5f-3580-4824-b3c2-2e9eff33a1c9")
+		)
+		(pin "4"
+			(uuid "c32e306f-646d-451b-8bd1-73ba49a17c2e")
+		)
+		(pin "6"
+			(uuid "2a6d89bd-9b7b-48dd-b262-d4bbff6f1eaf")
+		)
+		(pin "1"
+			(uuid "d7296861-e25c-466f-8248-295b17c3c6ee")
+		)
+		(pin "9"
+			(uuid "b6cf73d5-c4c6-4bab-a9b3-8c27445edf9c")
+		)
+		(pin "7"
+			(uuid "2970ea18-9a72-4772-9c33-aaf38b6db5c0")
+		)
+		(pin "10"
+			(uuid "372f506b-69aa-40b3-9934-0b8a32afdd5b")
+		)
+		(instances
+			(project "Li-Po_Battery_Charger"
+				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
 					(reference "U1")
 					(unit 1)
 				)
@@ -10735,8 +10397,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:YNR4030-4R7M")
-		(at 187.96 34.29 0)
+		(lib_id "lcsc_imported:RC0402FR-0720KL")
+		(at 109.22 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10744,10 +10406,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e70f12fc-2650-4401-a3e3-dfb838d2b960")
-		(property "Reference" "L1"
-			(at 187.96 27.94 0)
+		(uuid "ed145722-165d-4f6c-b912-b783374b5485")
+		(property "Reference" "R8"
+			(at 109.22 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10756,8 +10417,8 @@
 				)
 			)
 		)
-		(property "Value" "YNR4030-4R7M"
-			(at 187.96 30.48 0)
+		(property "Value" "20 kΩ"
+			(at 109.22 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10766,8 +10427,8 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C340391_IND-SMD_L4_0-W4_0"
-			(at 187.96 44.45 0)
+		(property "Footprint" "lcsc_footprints:C93942_R0402"
+			(at 109.22 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10777,8 +10438,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_YJYCOIN-YNR4030-4R7M_C340391.pdf"
-			(at 185.674 34.163 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_YAGEO-RC0402FR-0720KL_C93942.pdf"
+			(at 106.934 110.363 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10788,8 +10449,8 @@
 				)
 			)
 		)
-		(property "Description" "YNR4030-4R7M"
-			(at 187.96 34.29 0)
+		(property "Description" "RC0402FR-0720KL"
+			(at 109.22 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10799,8 +10460,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C340391"
-			(at 187.96 34.29 0)
+		(property "LCSC" "C93942"
+			(at 109.22 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10810,8 +10471,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YJYCOIN(益嘉源)"
-			(at 187.96 34.29 0)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 109.22 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10820,119 +10481,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "1d0f79d7-3d16-4a49-86d5-988fb7d52784")
 		)
 		(pin "1"
-			(uuid "73b1b1b4-2232-4c40-8ba2-6430876aaa32")
+			(uuid "db20812e-1074-4079-b567-329ab40c6d9d")
+		)
+		(pin "2"
+			(uuid "e084786c-8d26-4de1-886b-b3d695597453")
 		)
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:SS34L")
-		(at 233.68 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e95c1153-fa38-4557-832f-9a4bc68606e5")
-		(property "Reference" "D2"
-			(at 233.68 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS34L"
-			(at 233.68 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C3003093_SMF_L2_8-W1_8-LS3_7-RD"
-			(at 233.68 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204261415_Guangdong-Hottech-SS34L_C3003093.pdf"
-			(at 231.394 34.163 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SS34L"
-			(at 233.68 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C3003093"
-			(at 233.68 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Hottech(合科泰)"
-			(at 233.68 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0622b2e8-2ddc-43ea-9249-6d295b8b81b8")
-		)
-		(pin "1"
-			(uuid "283c6d46-8cf2-4394-b935-a3ef63dc8c86")
-		)
-		(instances
-			(project "Li-Po_Battery_Charger"
-				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "D2")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10949,7 +10508,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f13b3082-38b3-4023-9920-3d00035e40b3")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 108.966 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11033,119 +10592,10 @@
 		(instances
 			(project "Li-Po_Battery_Charger"
 				(path "/2fd531cc-5f8e-4103-8584-b4500b678de3"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(group ""
-		(uuid "6786cd17-53d8-4543-a2f3-3dfec7d36102")
-		(members "02465f73-3827-4e83-a355-c5a4252356cf" "1208800a-a491-40cb-83ed-77141844ad26"
-			"2e7b3eb1-5158-4ede-b17c-d38faaebcadb" "31aa0b23-a39d-4c23-af82-f47368164048"
-			"3566bdb7-78e6-48d7-a903-df39d92af6aa" "3ffed999-07b1-4111-b21b-9e287459ff66"
-			"473b8f97-dded-466b-903b-ac229be76c18" "4ea45137-1239-4974-8fcf-e96bda0cd81d"
-			"56404e5e-112b-465d-b2b9-aa12b253510f" "59bb4313-5d6f-415d-8fea-38caf5ad06c8"
-			"5ec2f081-78f1-4a47-b931-ffee312d1741" "5f5563d5-d0fd-4754-9445-7413a0daf6b3"
-			"636bb47d-1383-47db-a6aa-d6c045a86695" "689cf2e6-19de-4ae1-b4c4-be67555412ea"
-			"6ca934e6-8108-4d32-b962-b2c959f77f5e" "7e87424e-11b3-458d-80bf-9a46093359e2"
-			"8317d9e4-f3dc-4f3e-89fa-f460e6b03b1b" "879f4a1f-01c2-4b21-8b18-4da4661d4363"
-			"8bd7910d-7a40-43bc-a6e8-45131cf1be80" "901b3c91-6bd2-4348-a8ed-6c900d06137a"
-			"9153fa08-b8c8-4825-be85-1415fb8d206a" "9b9f004c-fe22-4664-be0f-4a279ba4247d"
-			"9ca0c05a-bd6d-4f4e-bbb0-a9b39e2cc965" "a211c4d7-24a2-427f-a4f6-915c6511b546"
-			"a9d6da67-a7c7-4150-9480-d034bfb20bad" "afaa672e-7ec3-4471-a170-070014bbcce7"
-			"b1cb960d-57e7-4682-94b7-cc21572cb39f" "baa0c123-2bc2-4af5-9d54-51d3c9c0bb7e"
-			"d2d7dad8-bc77-42ad-8c2f-f68183070018" "e0829b81-566e-428d-9c2f-6045cd8a3bae"
-			"f8bb3f14-7089-4a2c-bc4f-1d62e1bf0bdc" "f9c94e69-551b-4cdb-930f-9e95d450aa76"
-		)
-	)
-	(group ""
-		(uuid "dcb4a1ab-ae8a-40b7-989e-7f1557c70e97")
-		(members "067648b5-46c0-463a-9e77-56a3afeda704" "06fdd99f-4e08-4c63-a4a7-564e633eb632"
-			"0756cf06-7e6b-4dfc-8b6f-10e82258187d" "0b481743-6bfe-468a-ac86-fd9592ff6910"
-			"0eaaff4a-d1e9-4efe-b5fc-a30c76abdc3c" "0f174b26-a675-479b-a991-b8a42c85a6fc"
-			"0f80b7d4-6977-46a2-8cfb-b936756ccb3e" "0f95b9c6-a653-495b-bd0d-3bbc3973a2ed"
-			"180f5df1-e533-4ff1-8413-bc55cb86a982" "1b7b861f-a1a0-48d9-8626-6bb878bcde50"
-			"1b818cea-8221-4b63-845b-35ffd91f6e79" "1ca8777e-39a2-4ab4-ad01-8a10ae29eef4"
-			"1e112547-c845-48c1-bcd0-d3b0148bf577" "1e3f8226-b531-4059-b271-d5651d2b82d6"
-			"1fae36a9-153f-4c7c-b119-482e4bcb3c54" "200bbf74-f7f8-4cbf-a3cd-7258666bf3af"
-			"205db199-2aa9-48c7-beef-4d5e4845c87b" "241b51b9-4a4a-4060-a77a-56e975f236b0"
-			"25608df7-d1b6-4bca-a85a-5dccc6cd67e7" "2e21a817-e24b-404d-b84f-11c44584b57b"
-			"3105448e-e90b-4943-8cd1-9183c5bfe971" "314982fa-22f7-41c5-9744-acfcd4870077"
-			"3162d39c-e7b9-424e-b461-e3841208a363" "31b7cba8-de85-4ea0-89ce-1b5c1c81170c"
-			"31e1d24e-d911-49cc-823e-b618b5a58aea" "3650053b-1e34-4631-a66d-c756a13e299f"
-			"376c60e1-ba52-43ef-8061-2fd7b262bc81" "3bca7af2-4a37-4897-a5de-143153d98064"
-			"40e8fe05-2e98-4e5b-9f6a-3fa218aab38d" "428e51f9-6a5d-4543-a01c-111a4c6903d4"
-			"42b2fa94-7816-4140-b129-b9c79937bc71" "450951a1-7d2d-492c-bf3c-37c7ad30ee9c"
-			"491eec5e-5d85-48c8-8cdf-1b7b3699147a" "49c22c57-d74e-4f91-8d73-a28f8e78fb48"
-			"4a6e4217-df67-48e3-80b6-f922782f53e8" "4cec41af-9b09-4d14-81c8-a3a1341acfbb"
-			"4d4fc786-4c3a-48cb-bab8-7a375cf10213" "4f5ac03d-f16b-422f-afc2-3bbf6e4f9499"
-			"4f973f1f-5f04-4eb5-99af-9f12d9e111ad" "51d27e86-146b-4375-bc26-4f5ae54f25ae"
-			"5767b84a-e65c-46c6-99b9-08b19319ab10" "594c8d59-31ed-4f08-8d1d-2cfa8833afa1"
-			"5c39778f-59cd-439c-a7a2-623db39910a1" "5e96f724-cf00-4145-874a-e270e8cea432"
-			"5ea5434d-38c2-4fdf-9224-a6aa164344a9" "623071a1-320a-43d2-9f6e-45945425abb9"
-			"64e0f2e4-0e8a-44df-b741-aa7779b37d9b" "665a8b4f-f4d8-48da-9dcc-5a5352c089de"
-			"67d680a8-7d77-4c9c-83fb-27de3759be18" "6a497711-85ac-49ed-b529-12c567240832"
-			"6dd1c8a1-41fa-4d71-8a11-8030a3b3c339" "6e4459dd-69c7-47af-a691-74f675c70182"
-			"714d83b6-e88d-44d3-8c03-b2ddd71f1133" "72163cda-38d2-4eae-864f-85cce393796a"
-			"72d408cf-fca9-4bfc-9e68-49a3a9fe14cf" "7804a029-80e1-493c-a066-89624654e3c9"
-			"7a086c43-b35d-4c0a-817e-9663a2b59f49" "7a1580ca-389c-411b-9b99-3c0719a7d089"
-			"7baa9d44-151e-4721-9fa1-1304550201b3" "816767d6-2aef-44f0-b22a-258dbbb32c60"
-			"846e0199-af8a-48d5-b341-5fa3a3a25bb0" "84f47f0f-6cc8-4873-9586-746f945f50bc"
-			"888818f7-4a0d-4a0f-a053-66fc0bf4d9d7" "9133b4dc-4f61-4823-b069-ba468458e02b"
-			"92e7cc29-0fe7-40ed-bc0d-9a5875c77815" "9c7128b6-5034-4664-baf1-900a2b21cbdf"
-			"a0d15602-0d22-4aeb-9208-3015db0d268d" "a224b0d9-14c2-4c9a-97ed-5326bbe4cf8d"
-			"a4e57a0b-abc1-4294-be8c-5f44b833eb71" "a5770bd9-8251-436b-aab5-703738edf2ae"
-			"ae12acda-c92e-449f-939c-63ea17de98c8" "afd58506-8519-4958-86bc-0a6056979980"
-			"b01eabd2-4849-4ec6-bf87-c0e2105ec4b3" "b0f05937-83e9-4e56-92eb-edcd022a79df"
-			"b225ac08-a019-4dc9-b241-085aab23ef3d" "b7afda38-83e3-4ac3-b15b-3f3bba55e664"
-			"b8637662-a47b-4841-9dad-f36f4c0b5656" "b8ac1374-f9f9-4f1b-ab9b-c71490152fb4"
-			"bac5e44b-1ad2-489a-9f1a-7c8a07899cb5" "bc3f1ef5-aaa9-4687-88e1-da116e3212da"
-			"be625bff-4712-462b-95b1-0b54064990f8" "be9a9bea-ca14-455a-9834-d31f43d32b7a"
-			"bea404e5-1d16-4f4a-998c-95b7fdda41a2" "c16aee10-e42f-4e08-a5e1-8968cdd1a414"
-			"c42db02a-6aa8-4e8b-910c-535b6e67105d" "c552dccc-c85c-472b-9803-1b58308a8c50"
-			"c5c939a6-a691-4b55-905e-1626f39296ac" "cdd0d8c5-2d71-4dd4-a9fc-fdd547f2478c"
-			"d0c4857c-0960-4453-bd79-1a366f8fccc6" "d1118426-d01e-46b9-aed1-265d5ccc0eb5"
-			"d2ba9b9b-56c2-4c2e-a6b4-ad82d8e094c1" "d2d563e1-900f-456d-a006-e074f9a0245e"
-			"d4f32ca9-e7f6-41a0-9a91-076e888ce9fc" "d8273315-e9ae-4f5b-b0df-05773c76acea"
-			"d82eac81-6d26-4f32-afc1-0ad1b1459d49" "d95a6c5b-20e5-41df-9393-e0074fc796da"
-			"d95e16cd-667e-472f-8fb1-2ef8be252f03" "d9748d86-c15b-4e35-aab0-ddf7e9aa8cdf"
-			"de5354f2-3bef-40d9-9da9-2a8e55877bc0" "e0164cab-5361-4a1b-ab75-eada1573f34d"
-			"e9ba19a5-c020-4770-a03a-069de41b086f" "eb36e44a-3b7e-453b-9731-1171617f4b02"
-			"ecf8e21c-d6ba-4614-9ab8-92a489999acb" "ee66f0c2-905a-4ac4-8780-ff4f3436d4a2"
-			"f13b3082-38b3-4023-9920-3d00035e40b3" "f75a6f08-c939-47bb-8953-30b8314f009a"
-			"ff2bba52-aa58-4e4a-a834-83d5c3dba7af"
-		)
-	)
-	(group ""
-		(uuid "ffa9fa91-8a69-40a1-9842-a1ea3a55a616")
-		(members "0425db44-ccd3-46e4-832f-7dc62d742b81" "0568bff3-9b13-4340-9a47-b18c5cd1d64e"
-			"07e33452-e3f6-4a33-bc82-4dc76fa34f3c" "0f7c8a77-3859-4acb-98cb-979cef959957"
-			"10c0505f-2e3c-4397-b8c2-14c3451b9d6a" "149ccbc3-6cb7-4339-8d94-d77b0e77e006"
-			"21ded84e-4436-4e51-a184-ce9264d396a3" "22136c02-79ca-4e39-9fd3-14893900a698"
-			"2486277b-eea4-49a3-a701-5a37516f1d25" "258a9266-8813-45e3-890e-c10b4d753805"
-			"26a4f495-c2b2-4265-8dca-4da410ce731c" "271efe8a-e786-4b4f-9146-dd75df0abe98"
-			"2a3f3b2b-2620-4a5b-a5bb-6ea974fc8f80" "2e78aa41-f4f7-4744-a5db-ff9d9ad32f75"
-			"3124f9a0-a426-41fa-83e8-c598e4df4bfe" "45e78687-a84c-4848-aef9-4a10868d0bce"
-			"4624bac0-dd6e-4215-8e2b-d4a2fbaa9e80" "46b63794-fe9d-4d4b-acb2-bea4ac7f6197"
-			"50f0eb86-62f9-46f9-aec8-00a28417a8a0" "56590783-1d3f-4faf-a16c-f64e5dd1ca44"
-			"57759401-acae-4c56-9936-8c5d51b25b9a" "5e903fb8-bf30-47a7-9c3f-622e81160143"
-			"612432d7-912b-4a00-89a2-251d6bbbcceb" "647feba3-aad6-43eb-bbdf-77aa2784b654"
-			"6d0859f1-5e93-409d-a266-fefe6ce4e8b2" "6d99c3f0-3ef8-49ea-a2b3-4653eeaf8b39"
-			"6f51dbc9-635c-4188-a89b-308e58f1aac1" "73d9e884-efd5-4a9e-858c-93c919a0e4a8"
-			"775f28d8-2d7d-47fa-9ff4-bc45b80a0874" "7d0b70bd-4c94-408a-8e2a-34f0ed9040e0"
-			"7f0fc06d-2d90-4b8d-92fd-ff3bf793ca7e" "8a059b4a-6ee8-4469-933d-967b768623dd"
-			"8ac39a0f-364d-405c-97b4-6ef523e21fcb" "8c4450a3-2470-4b8a-bea2-52b9deb28154"
-			"9637a071-32e9-4d84-85c4-3f46060b5756" "9cc00675-bf54-4dc6-a850-5cb22ae6c592"
-			"9fedac13-ae42-45fb-808a-8b4a67a7d254" "a15175fa-9cf5-425a-b8a3-98241b5303ea"
-			"aa84cf4f-96e6-4127-b60a-9c250f7370b7" "b47c69a9-b177-4046-b9a2-241690ad1669"
-			"b8351a0a-b3dc-4c06-bf0a-3622704d4c33" "d0d7df34-d5df-470c-aaca-6c27dbc268ef"
-			"d11056ef-15ce-4b9c-ba98-8133218a7299" "d156ba62-a5ac-4a40-a51a-60b8e4185e89"
-			"d5013991-71e4-42fc-84cf-d099c4416f47" "d7297df1-d36f-4056-854d-80caa27f4d42"
-			"dd063a49-8dd0-4912-934e-b46172e135f9" "df7fb896-66e4-410b-b394-f6e809064910"
-			"e70f12fc-2650-4401-a3e3-dfb838d2b960" "e95c1153-fa38-4557-832f-9a4bc68606e5"
-			"eb112d4f-5d21-4aaa-a59d-cc62876a7d5b" "ef92afb9-8339-4cc2-8030-1ce0953564f1"
-			"f5cdb49e-3997-4192-9136-0bb320446eb5" "f7fdb416-2038-44b3-9f24-2f12c2985702"
 		)
 	)
 	(sheet_instances

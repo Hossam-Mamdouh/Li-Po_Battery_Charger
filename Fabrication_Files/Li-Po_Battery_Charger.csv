@@ -1,24 +1,24 @@
-"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
-1;"BAT";"C173752_CONN-TH_S2B-PH-K-S-LF-SN";1;"S2B-PH-K-S(LF)(SN)";;;
-2;"C1, C7, C8, C9";"C3039641_C0603";4;"10uF";;;
-3;"C2";"C5448791_C0402";1;"100nF";;;
-4;"C3, C5";"C22367828_C0603";2;"22uF";;;
-5;"C4";"C15195_C0402";1;"10nF";;;
-6;"C6, C11";"C5137616_C0603";2;"100nF";;;
-7;"C10";"C22392391_C0603";1;"10uF";;;
-8;"D1";"C2905646_SOD-923_L0_8-W0_6-LS1_0-BI-1";1;"ESD9B5V";;;
-9;"D2";"C3003093_SMF_L2_8-W1_8-LS3_7-RD";1;"SS34L";;;
-10;"F1";"C70076_F1206";1;"0.50A 24V";;;
-11;"L1";"C340391_IND-SMD_L4_0-W4_0";1;"YNR4030-4R7M";;;
-12;"LED1";"C2286_LED-SMD_L1_6-W0_8-R-RD";1;"0603";;;
-13;"LED2";"C22371297_LED0603-RD_GREEN";1;"PSC-1608U52GC-G4";;;
-14;"Q1";"C908265_SOT-23-6_L2_9-W1_6-P0_95-LS2_8-BR";1;"FS8205A_C908265";;;
-15;"R1, R4, R8, R11, R12";"C326912_R0402";5;"10kΩ";;;
-16;"R2";"C325374_R0402";1;"RMC040231.6K1%N";;;
-17;"R3, R7";"C60491_R0402";2;"100KΩ";;;
-18;"R5";"C4109_R0402";1;"2KΩ";;;
-19;"R6, R9, R10";"C11702_R0402";3;"1KΩ";;;
-20;"U1";"C42459937_SOT-23-6_L2_9-W1_6-P0_95-LS2_8-BL";1;"DW01A";;;
-21;"U2";"C15051_SOIC-8_L5_0-W4_0-P1_27-LS6_0-BL-EP2_0";1;"MP1584EN-LF-Z";;;
-22;"U3";"C5121473_QFN-20_L4_0-W4_0-P0_50-BL-EP2_7";1;"MCP73871-2CCI/ML";;;
-23;"USBC";"C668624_USB-C-SMD_TYPE-C16PIN_C668624";1;"TYPE-C 16P(073)";;;
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet","LCSC"
+"Battery1,Load1","2","S2B-PH-K-S(LF)(SN)","","","","lcsc_footprints:C173752_CONN-TH_S2B-PH-K-S-LF-SN","https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-S2B-PH-K-S-LF-SN_C173752.pdf","C173752"
+"C1,C3,C6,C7,C8","5","10uF","","","","lcsc_footprints:C3039641_C0603","https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206171701_Murata-Electronics-GCM188D70J106ME36D_C3039641.pdf","C3039641"
+"C2","1","100nF","","","","lcsc_footprints:C5448791_C0402","https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403281711_CCTC-TCC0402X7R104K500AT_C5448791.pdf","C5448791"
+"C4","1","22uF","","","","lcsc_footprints:C22367828_C0603","https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403261048_Chinocera-HGC0603R5226M160NTHJ_C22367828.pdf","C22367828"
+"C5","1","100nF","","","","lcsc_footprints:C5137616_C0603","https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2208181800_FOJAN-FCC0603B104K101CT_C5137616.pdf","C5137616"
+"D1","1","ESD9B5V","","","","lcsc_footprints:C2905646_SOD-923_L0_8-W0_6-LS1_0-BI-1","https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2110250930_TECH-PUBLIC-ESD9B5V_C2905646.pdf","C2905646"
+"F1","1","1.5A","","","","lcsc_footprints:C118413_F1206","https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Littelfuse-1206L150THWR_C118413.pdf","C118413"
+"L1","1","0.47 µH","","","","lcsc_footprints:C285747_IND-SMD_L4_0-W4_0_CHILISIN_MHCI04012N","","C285747"
+"LED1","1","0603","","","","lcsc_footprints:C2286_LED-SMD_L1_6-W0_8-R-RD","https://www.lcsc.com/datasheet/lcsc_datasheet_1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf","C2286"
+"LED2","1","PSC-1608U52GC-G4","","","","lcsc_footprints:C22371297_LED0603-RD_GREEN","https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403281525_HONGLITRONIC-Hongli-Zhihui--HONGLITRONIC-PSC-1608U52GC-G4_C22371297.pdf","C22371297"
+"Q1","1","FS8205A_C908265","","","","lcsc_footprints:C908265_SOT-23-6_L2_9-W1_6-P0_95-LS2_8-BR","https://www.lcsc.com/datasheet/lcsc_datasheet_2010271837_FUXINSEMI-FS8205A_C908265.pdf","C908265"
+"R1,R2","2","5.1KΩ","","","","lcsc_footprints:C25905_R0402","https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf","C25905"
+"R3","1","511kΩ","","","","lcsc_footprints:C861454_R0603","https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210190000_YAGEO-RT0603BRD07511KL_C861454.pdf","C861454"
+"R4","1","91 kΩ","","","","lcsc_footprints:C2907077_R0603","https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0603F9102TS_C2907077.pdf","C2907077"
+"R5","1","2KΩ","","","","lcsc_footprints:C4109_R0402","https://www.lcsc.com/datasheet/lcsc_datasheet_2206010230_UNI-ROYAL-Uniroyal-Elec-0402WGF2001TCE_C4109.pdf","C4109"
+"R6,R7,R11","3","1KΩ","","","","lcsc_footprints:C11702_R0402","https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf","C11702"
+"R8","1","20 kΩ","","","","lcsc_footprints:C93942_R0402","https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_YAGEO-RC0402FR-0720KL_C93942.pdf","C93942"
+"R9","1","100Ω","","","","lcsc_footprints:C106232_R0402","https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-07100RL_C106232.pdf","C106232"
+"R10,R12,R13,R14","4","10kΩ","","","","lcsc_footprints:C326912_R0402","https://www.lcsc.com/datasheet/lcsc_datasheet_1811011622_YAGEO-RT0402DRE0710KL_C326912.pdf","C326912"
+"U1","1","TPS63802DLAR","","","","lcsc_footprints:C2845237_VSON-10_L3_0-W2_0-P0_50-TL","https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220830_Texas-Instruments-TPS63802DLAR_C2845237.pdf","C2845237"
+"U2","1","MCP73871-2CCI/ML","","","","lcsc_footprints:C5121473_QFN-20_L4_0-W4_0-P0_50-BL-EP2_7","https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2212031600_Microchip-Tech-MCP73871-2CCI-ML_C5121473.pdf","C5121473"
+"U3","1","DW01A","","","","lcsc_footprints:C42459937_SOT-23-6_L2_9-W1_6-P0_95-LS2_8-BL","None","C42459937"
+"USB-C1","1","TYPE-C 16P(073)","","","","lcsc_footprints:C668624_USB-C-SMD_TYPE-C16PIN_C668624","https://www.lcsc.com/datasheet/lcsc_datasheet_2006181823_SHOU-HAN-TYPE-C-16P-073_C668624.pdf","C668624"

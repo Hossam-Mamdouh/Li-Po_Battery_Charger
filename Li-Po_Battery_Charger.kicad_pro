@@ -538,9 +538,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber/",
       "specctra_dsn": "",
-      "step": "Li-Po_Battery_Charger.step",
+      "step": "Fabrication_Files/Li-Po_Battery_Charger.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -549,7 +549,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -613,12 +613,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -663,7 +687,7 @@
         "uuid": "2fd531cc-5f8e-4103-8584-b4500b678de3"
       }
     ],
-    "used_designators": "#FLG1-3,R1-13,J1,#PWR1-9,D1-3,F1-2,C1-12,U1-4,L1,LED1,Q1,USB1-2",
+    "used_designators": "#FLG1-3,R1-18,J1,#PWR1-14,D1-3,F1-2,C1-15,U1-4,L1-2,LED1-2,Q1,USB1-2,BAT1-2,Battery1,Load1,USB\\-C1",
     "variants": []
   },
   "sheets": [
